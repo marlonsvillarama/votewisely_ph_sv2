@@ -1,0 +1,29 @@
+:root {
+    --box-shadow: rgba(0, 0, 0, 0.8) 0px 3px 8px;
+    --card-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+    --br-sm: 640px;
+    --br-md: 768px;
+    --br-lg: 1024px;
+    --br-xl: 1280px;
+    --br-2xl: 1536px;
+
+    --color-blue-flag: #0032A0;
+    --color-default: rgb(17, 24, 39);
+    --color-red-flag-lite: rgba(191, 13, 62, 0.8);
+    --color-red-flag: rgba(191, 13, 62);
+    --color-slate-900: rgb(15, 23, 42);
+    --color-white: #FFFFFF;
+
+    --font-sans: "Plus Jakarta Sans", sans-serif;
+    --font-serif: 'Lora', 'Times New Roman', serif;
+
+    --fs-xs: 0.75rem;
+    --fs-sm: 0.875rem;
+    --fs-md: 1rem;
+    --fs-lg: 1.125rem;
+    --fs-xl: 1.5rem;
+    --fs-2xl: 2rem;
+    --fs-3xl: 3rem;
+    --fs-4xl: 4rem;
+}
