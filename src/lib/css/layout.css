@@ -12,9 +12,6 @@ main {
     /* width: 100%; */
     position: relative;
 }
-.row {
-    /* border: 1px solid red; */
-}
 .row .content {
     text-align: center;
     display: flex;

@@ -30,13 +30,19 @@
 }
 .hero .content h1 {
     /* background: rgba(0, 0, 0, 0.5); */
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 600;
     letter-spacing: -0.5px;
     /* border: 1px solid red; */
     line-height: 4rem;
+    text-align: center;
     display: inline-block;
     /* padding: 1rem; */
+}
+@media (min-width: 40rem) {
+    .hero .content h1 {
+        font-size: 4rem;
+    }
 }
 .hero .content p {
     font-family: var(--font-serif);
