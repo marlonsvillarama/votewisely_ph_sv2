@@ -30,24 +30,7 @@
 
 <style>
     .hero {
-		/* padding: 8rem 6rem; */
-		padding: 10.5rem 0 8rem;
-		position: relative;
-		height: 100%;
-		width: 100%;
 		background: url("../lib/images/ph-flag.jpg") 50% 50%;
-		background-repeat: no-repeat;
-		background-size: cover;
-		overflow: hidden;
-	}
-	.hero .overlay {
-		position: absolute;
-		top: 0;
-		left: 0;
-		height: 100%;
-		width: 100%;
-		background-color: #000;
-		opacity: 0.3;
 	}
 
 </style>
