@@ -9,7 +9,12 @@
             "short_fn": "Benhur",
             "ln": "Abalos",
             "dob": "19620719",
+            "job": "Former DILG secretary",
             "term": 1,
+            "short_tags": [
+                { "text": "Political Family", "alert": true },
+                { "text": "For first term" }
+            ],
             "tags": [
                 { "text": "PF", "alert": true },
                 { "text": "F_M" },
@@ -82,7 +87,11 @@
             "short_fn": "Ronaldo",
             "ln": "Adonis",
             "dob": "",
+            "job": "Activist",
             "term": 1,
+            "short_tags": [
+                { "text": "For first term" }
+            ],
             "tags": [],
             "img": "adonis.jpg",
             "party": "Makabayang Koalisyon ng Mamamayan",
@@ -100,7 +109,11 @@
             "short_fn": "Wilson",
             "ln": "Amad",
             "dob": "",
+            "job": "Lawyer/Activist",
             "term": 1,
+            "short_tags": [
+                { "text": "For first term" }
+            ],
             "tags": [],
             "img": "adonis.jpg",
             "party": "Independent",
@@ -118,7 +131,11 @@
             "short_fn": "Jocelyn",
             "ln": "Andamo",
             "dob": "",
+            "job": "Registered Nurse",
             "term": 1,
+            "short_tags": [
+                { "text": "For first term" }
+            ],
             "tags": [],
             "img": "adonis.jpg",
             "party": "Makabayang Koalisyon ng Mamamayan",
@@ -136,7 +153,12 @@
             "short_fn": "Bam",
             "ln": "Aquino",
             "dob": "19770507",
+            "job": "Former Senator",
             "term": 2,
+            "short_tags": [
+                { "text": "Political Family", "alert": true },
+                { "text": "For second term" }
+            ],
             "tags": [
                 { "text": "PF", "alert": true },
                 { "text": "F_S" }
@@ -213,8 +235,11 @@
             "short_fn": "Ronnel",
             "ln": "Arambulo",
             "dob": "",
-            "job": "Former DILG secretary",
+            "job": "Fisherfolk/Activist",
             "term": 1,
+            "short_tags": [
+                { "text": "For first term" }
+            ],
             "tags": [
                 { "text": "PF", "alert": true },
                 { "text": "F_S" }
@@ -235,6 +260,7 @@
             "short_fn": "Ernesto",
             "ln": "Arellano",
             "dob": "",
+            "job": "Lawyer",
             "term": 1,
             "tags": [
             ],
@@ -254,6 +280,7 @@
             "short_fn": "Roberto",
             "ln": "Ballon",
             "dob": "",
+            "job": "Fisherfolk/Activist",
             "term": 1,
             "tags": [
                 { "text": "PF", "alert": true },
@@ -275,6 +302,7 @@
             "short_fn": "Abby",
             "ln": "Binay",
             "dob": "",
+            "job": "Mayor",
             "term": 1,
             "tags": [
                 { "text": "PF", "alert": true },
@@ -296,6 +324,7 @@
             "short_fn": "Jimmy",
             "ln": "Bondoc",
             "dob": "",
+            "job": "Attorney",
             "term": 1,
             "tags": [
                 { "text": "PF", "alert": true },
@@ -317,6 +346,7 @@
             "short_fn": "Bonifacio",
             "ln": "Bosita",
             "dob": "",
+            "job": "Former Colonel",
             "term": 1,
             "tags": [
                 { "text": "PF", "alert": true },
@@ -338,6 +368,7 @@
             "short_fn": "Arlene",
             "ln": "Brosas",
             "dob": "",
+            "job": "Congresswoman",
             "term": 1,
             "tags": [
                 { "text": "PF", "alert": true },

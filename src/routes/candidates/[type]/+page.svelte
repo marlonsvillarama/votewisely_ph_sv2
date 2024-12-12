@@ -1,6 +1,7 @@
 <script>
     import { page } from "$app/stores";
     import Candidate from '../../../components/candidate.svelte';
+    import Filters from "../../../components/filters.svelte";
 
     export let data;
 
@@ -17,14 +18,18 @@
 	<meta name="description" content={slugTitle} />
 </svelte:head>
 
-<section class="candidates hero">
+<section class="hero">
 	<div class="overlay"></div>
 	<div class="content wrapper">
 		<h1>{slugProper}</h1>
 	</div>
 </section>
 
-<div class="candidates content wrapper">
+<div class="wrapper">
+    <Filters />
+</div>
+
+<div class="content wrapper">
 
     {#each list as candidate}
         <Candidate data={candidate} />
@@ -33,7 +38,7 @@
 </div>
 
 <style>
-	.candidates.hero {
+	.hero {
 		background: url('/images/senate.jpg') 50% 50%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -42,17 +47,20 @@
 		opacity: 0.8;
 	}
     @media (min-width: 40rem) {
-        .candidates.hero {
+        .hero {
             padding: 8rem 0 6rem;
         }
     }
     @media (min-width: 60rem) {
-        .candidates.hero {
+        .hero {
             padding: 10.5rem 0 8rem;
         }
     }
 
-	.candidates.content {
+    .filters {
+        border: 1px solid red;
+    }
+	.content {
 		display: flex;
 		/* flex-direction: column; */
         flex-wrap: wrap;

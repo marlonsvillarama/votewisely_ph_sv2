@@ -15,10 +15,10 @@
 </section>
 
 <nav class="row-menu">
-    <a href="./">President</a>
-    <a href="./">Vice President</a>
-    <a href="./">Senate</a>
-    <a href="./">Congress</a>
+    <a href="./candidates/president">President</a>
+    <a href="./candidates/veep">Vice President</a>
+    <a href="./candidates/senate">Senate</a>
+    <a href="./candidates/congress">Congress</a>
 </nav>
 
 <style>

@@ -19,6 +19,7 @@
     --font-sans: "Plus Jakarta Sans", sans-serif;
     --font-serif: 'Lora', 'Times New Roman', serif;
 
+    --fs-xxs: 0.65rem;
     --fs-xs: 0.75rem;
     --fs-sm: 0.875rem;
     --fs-md: 1rem;
