@@ -1,0 +1,1491 @@
+{
+    "president": [],
+    "veep": [],
+    "senate": [
+        {
+            "id": "1",
+            "slug": "abalos",
+            "fn": "Benjamin De Castro Jr.",
+            "short_fn": "Benhur",
+            "ln": "Abalos",
+            "dob": "19620719",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_M" },
+                { "text": "F_R" },
+                { "text": "F_CM" }
+            ],
+            "img": "abalos.jpg",
+            "party": "Partido Federal ng Pilipinas",
+            "exp": [{
+                "value": "Secretary - Department of Interior and Local Government (2022-2024)",
+                "sub": [
+                    "Implementation of the \"Buhay Ingatan, Droga'y Ayawan (BIDA)\" program"
+                ]
+            }, {
+                "value": "Chairman - Metropolitan Manila Development Authority (2021-2022)"
+            }, {
+                "value": "Mayor - Mandaluyong City, Metro Manila (2007-2016)",
+                "sub": [
+                    "Best Mayor (2015)"
+                ]
+            }, {
+                "value": "Congressman - Mandaluyong Lone District (2004-2007)",
+                "sub": [
+                    "Principal author:<ul><li><a href=\"https://www.officialgazette.gov.ph/2007/03/18/republic-act-no-9397/\" target=\"_blank\">Republic Act 9397 - \"No-Bidding\" sale of government-owned properties to its occupants for socialized housing</a></li></ul>",
+                    "Co-authored 54 House bills"
+                ]
+            }, {
+                "value": "Mayor - Mandaluyong City, Metro Manila (1998-2004)",
+                "sub": [
+                    "Transformed Mandaluyong City into \"Tiger City of the Philippines\" during first term as Mayor.",
+                    "Most Outstanding City Mayor, Local Government Leadership Award (2003)",
+                    "Outstanding Mayor of the Philippines (2000)"
+                ]
+            }, {
+                "value": "City Councilor - Mandaluyong City,Metro Manila (1995-1998)"
+            }],
+            "adv": [],
+            "pf": [{
+                "name": "Benjamin Abalos Sr.",
+                "rel": "Father",
+                "pos": "Mayor, Mandaluyong City (Incumbent)"
+            }, {
+                "name": "Carmelita Abalos",
+                "rel": "Wife",
+                "pos": "Vice Mayor, Mandaluyong City (Incumbent)"
+            }, {
+                "name": "Charisse Marie Abalos",
+                "rel": "Daughter",
+                "pos": "Councilor, 1st District, Mandaluyong City (2013-2022)"
+            }, {
+                "name": "Benjamin Abalos III",
+                "rel": "Son",
+                "pos": "Councilor, 2nd District, Mandaluyong City (Incumbent)"
+            }],
+            "nw": 0,
+            "ed": [
+                "Ateneo de Manila University - Bachelor of Laws",
+                "De La Salle University - Bachelor of Arts in History and Political Science"
+            ],
+            "news": [
+                "<a href=\"https://www.gmanetwork.com/news/topstories/nation/919508/abalos-explains-viral-photo-with-alice-guo/story/\" target=\"_blank\">Abalos explains viral photo with Alice Guo</a>",
+                "<a href=\"https://www.gmanetwork.com/news/topstories/nation/919806/abalos-complaint-duterte-quiboloy/story/#goog_rewarded\" target=\"_blank\">Abalos says ex-Pres. Duterte has filed complaint against him, Marbil amid Quiboloy hunt</a>",
+                "<a href=\"https://www.manilatimes.net/2023/01/30/news/regions/abalos-govt-in-big-fight-vs-drug-rings/1876455\" target=\"_blank\">Abalos: Govt in big fight vs drug rings</a>"
+            ]
+        },
+        {
+            "id": "2",
+            "slug": "adonis",
+            "fn": "Ronaldo Mangampo",
+            "short_fn": "Ronaldo",
+            "ln": "Adonis",
+            "dob": "",
+            "term": 1,
+            "tags": [],
+            "img": "adonis.jpg",
+            "party": "Makabayang Koalisyon ng Mamamayan",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "3",
+            "slug": "amad",
+            "fn": "Wilson Caritero",
+            "short_fn": "Wilson",
+            "ln": "Amad",
+            "dob": "",
+            "term": 1,
+            "tags": [],
+            "img": "adonis.jpg",
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "4",
+            "slug": "andamo",
+            "fn": "Jocelyn Santos",
+            "short_fn": "Jocelyn",
+            "ln": "Andamo",
+            "dob": "",
+            "term": 1,
+            "tags": [],
+            "img": "adonis.jpg",
+            "party": "Makabayang Koalisyon ng Mamamayan",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "5",
+            "slug": "aquino",
+            "fn": "Paolo Benigno “Bam” IV Aguirre",
+            "short_fn": "Bam",
+            "ln": "Aquino",
+            "dob": "19770507",
+            "term": 2,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "abalos.jpg",
+            "party": "Katipunan ng Nagkakaisang Pilipino",
+            "exp": [{
+                "value": "Senator (2013-2019)",
+                "sub": [
+                    "Deputy Senate Minority Leader (2017-2019)",
+                    {
+                        "v": "Passed more than 40 laws, including the following:",
+                        "l": [
+                            "<a href=\"https://www.officialgazette.gov.ph/2017/08/03/republic-act-no-10931/\" target=\"_blank\">RA 10931: Universal Access to Quality Tertiary Education Act</a>"
+                        ]
+                    }
+                ]
+            }, {
+                "value": "Chairman - Metropolitan Manila Development Authority (2021-2022)"
+            }, {
+                "value": "Mayor - Mandaluyong City, Metro Manila (2007-2016)",
+                "sub": [
+                    "Best Mayor (2015)"
+                ]
+            }, {
+                "value": "Congressman - Mandaluyong Lone District (2004-2007)",
+                "sub": [
+                    "Principal author:<ul><li><a href=\"https://www.officialgazette.gov.ph/2007/03/18/republic-act-no-9397/\" target=\"_blank\">Republic Act 9397 - \"No-Bidding\" sale of government-owned properties to its occupants for socialized housing</a></li></ul>",
+                    "Co-authored 54 House bills"
+                ]
+            }, {
+                "value": "Mayor - Mandaluyong City, Metro Manila (1998-2004)",
+                "sub": [
+                    "Transformed Mandaluyong City into \"Tiger City of the Philippines\" during first term as Mayor.",
+                    "Most Outstanding City Mayor, Local Government Leadership Award (2003)",
+                    "Outstanding Mayor of the Philippines (2000)"
+                ]
+            }, {
+                "value": "City Councilor - Mandaluyong City,Metro Manila (1995-1998)"
+            }],
+            "adv": [],
+            "pf": [{
+                "name": "Benjamin Abalos Sr.",
+                "rel": "Father",
+                "pos": "Mayor, Mandaluyong City (Incumbent)"
+            }, {
+                "name": "Carmelita Abalos",
+                "rel": "Wife",
+                "pos": "Vice Mayor, Mandaluyong City (Incumbent)"
+            }, {
+                "name": "Charisse Marie Abalos",
+                "rel": "Daughter",
+                "pos": "Councilor, 1st District, Mandaluyong City (2013-2022)"
+            }, {
+                "name": "Benjamin Abalos III",
+                "rel": "Son",
+                "pos": "Councilor, 2nd District, Mandaluyong City (Incumbent)"
+            }],
+            "nw": 0,
+            "ed": [
+                "Ateneo de Manila University - Bachelor of Laws",
+                "De La Salle University - Bachelor of Arts in History and Political Science"
+            ],
+            "news": [
+                "<a href=\"https://www.gmanetwork.com/news/topstories/nation/919508/abalos-explains-viral-photo-with-alice-guo/story/\" target=\"_blank\">Abalos explains viral photo with Alice Guo</a>",
+                "<a href=\"https://www.gmanetwork.com/news/topstories/nation/919806/abalos-complaint-duterte-quiboloy/story/#goog_rewarded\" target=\"_blank\">Abalos says ex-Pres. Duterte has filed complaint against him, Marbil amid Quiboloy hunt</a>",
+                "<a href=\"https://www.manilatimes.net/2023/01/30/news/regions/abalos-govt-in-big-fight-vs-drug-rings/1876455\" target=\"_blank\">Abalos: Govt in big fight vs drug rings</a>"
+            ]
+        },
+        {
+            "id": "6",
+            "slug": "arambulo",
+            "fn": "Ronnel Gondraneos",
+            "short_fn": "Ronnel",
+            "ln": "Arambulo",
+            "dob": "",
+            "job": "Former DILG secretary",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "arambulo.jpg",
+            "party": "Makabayang Koalisyon ng Mamamayan",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "7",
+            "slug": "arellano",
+            "fn": "Ernesto Rillera",
+            "short_fn": "Ernesto",
+            "ln": "Arellano",
+            "dob": "",
+            "term": 1,
+            "tags": [
+            ],
+            "img": "arellano.jpg",
+            "party": "Kamalayang Kayumanggi",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "8",
+            "slug": "ballon",
+            "fn": "Roberto Amido",
+            "short_fn": "Roberto",
+            "ln": "Ballon",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "ballon.jpg",
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "9",
+            "slug": "binay",
+            "fn": "Mar-Len Abigail Sombillo",
+            "short_fn": "Abby",
+            "ln": "Binay",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "binay.jpg",
+            "party": "Nationalist People's Coalition",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "10",
+            "slug": "bondoc",
+            "fn": "James Patrick Romero",
+            "short_fn": "Jimmy",
+            "ln": "Bondoc",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "bondoc.jpg",
+            "party": "PDP-Laban",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "11",
+            "slug": "bosita",
+            "fn": "Bonifacio Laqui",
+            "short_fn": "Bonifacio",
+            "ln": "Bosita",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "bosita.jpg",
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "12",
+            "slug": "brosas",
+            "fn": "Arlene Duran",
+            "short_fn": "Arlene",
+            "ln": "Brosas",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "brosas.jpg",
+            "party": "Makabayang Koalisyon ng Mamamayan",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "13",
+            "slug": "cabonegro",
+            "fn": "Roy Jerusalem",
+            "short_fn": "Roy",
+            "ln": "Cabonegro",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "cabonegro.jpg",
+            "party": "Democratic Party of the Philippines",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "14",
+            "slug": "capuyan",
+            "fn": "Allen Arat",
+            "short_fn": "Allen",
+            "ln": "Capuyan",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "capuyan.jpg",
+            "party": "Partido Pilipino sa Pagbabago",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "15",
+            "slug": "casino",
+            "fn": "Teodoro Acevedo",
+            "short_fn": "Teddy",
+            "ln": "Casiño",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "casino.jpg",
+            "party": "Makabayang Koalisyon ng Mamamayan",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "16",
+            "slug": "castro",
+            "fn": "Francisca Lustina",
+            "short_fn": "Francisca",
+            "ln": "Castro",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "castro.jpg",
+            "party": "Makabayang Koalisyon ng Mamamayan",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "17",
+            "slug": "cayetano",
+            "fn": "Pilar Juliana Schramm",
+            "short_fn": "Pia",
+            "ln": "Cayetano",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "cayetano.jpg",
+            "party": "Nacionalista Party",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "18",
+            "slug": "dealban",
+            "fn": "Angelo Castro",
+            "short_fn": "Angelo",
+            "ln": "De Alban",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "dealban.jpg",
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "19",
+            "slug": "dangelo",
+            "fn": "David Delano",
+            "short_fn": "David",
+            "ln": "D'Angelo",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "dangelo.jpg",
+            "party": "Bunyog Pagkakaisa Party",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "20",
+            "slug": "deguzman",
+            "fn": "Leodegario Quitain",
+            "short_fn": "Leo",
+            "ln": "De Guzman",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "deguzman.jpg",
+            "party": "Partido Lakas ng Masa",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "21",
+            "slug": "delarosa",
+            "fn": "Ronald Marapon",
+            "short_fn": "Ronald",
+            "ln": "Dela Rosa",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "delarosa.jpg",
+            "party": "PDP-Laban",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "22",
+            "slug": "doringo",
+            "fn": "Eufemia Pet",
+            "short_fn": "Eufemia",
+            "ln": "Doringo",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "doringo.jpg",
+            "party": "Makabayang Koalisyon ng Mamamayan",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "23",
+            "slug": "escobal",
+            "fn": "Arnel Bondilles",
+            "short_fn": "Arnel",
+            "ln": "Escobal",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "escobal.jpg",
+            "party": "Partido Maharlika",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "24",
+            "slug": "espiritu",
+            "fn": "Renecio Jr. Santos",
+            "short_fn": "Renecio",
+            "ln": "Espiritu",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "espiritu.jpg",
+            "party": "Partido Lakas ng Masa",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "25",
+            "slug": "floranda",
+            "fn": "Modesto Toque",
+            "short_fn": "Modesto",
+            "ln": "Floranda",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "floranda.jpg",
+            "party": "Makabayang Koalisyon ng Mamamayan",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "26",
+            "slug": "gamboa",
+            "fn": "Marc Louie Santos",
+            "short_fn": "Marc",
+            "ln": "Gamboa",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "gamboa.jpg",
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "27",
+            "slug": "go",
+            "fn": "Christopher Lawrence Tesoro",
+            "short_fn": "Christopher",
+            "ln": "Go",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "go.jpg",
+            "party": "PDP-Laban",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "28",
+            "slug": "gonzales",
+            "fn": "Norberto Borja",
+            "short_fn": "Norberto",
+            "ln": "Gonzales",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "gonzales.jpg",
+            "party": "Partido Demokratiko Sosyalista ng Pilipinas",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "29",
+            "slug": "hinlo",
+            "fn": "Jesus Jr. Villanueva",
+            "short_fn": "Jesus Jr.",
+            "ln": "Hinlo",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "hinlo.jpg",
+            "party": "PDP-Laban",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "30",
+            "slug": "honasan",
+            "fn": "Gregorio Ballesteros",
+            "short_fn": "Gregorio",
+            "ln": "Honasan",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "honasan.jpg",
+            "party": "Reform PH-People's Party",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "31",
+            "slug": "jose",
+            "fn": "Relly Jr. Nufable",
+            "short_fn": "Relly Jr.",
+            "ln": "Jose",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "jose.jpg",
+            "party": "Kilusang Bagong Lipunan",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "32",
+            "slug": "lacson",
+            "fn": "Panfilo Morena",
+            "short_fn": "Panfilo",
+            "ln": "Lacson",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "lacson.jpg",
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "33",
+            "slug": "lambino",
+            "fn": "Raul Loyola",
+            "short_fn": "Raul",
+            "ln": "Lambino",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "lambino.jpg",
+            "party": "PDP-Laban",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "34",
+            "slug": "lapid",
+            "fn": "Manuel Mercado",
+            "short_fn": "Lito",
+            "ln": "Lapid",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "lapid.jpg",
+            "party": "Nationalist People's Coalition",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "35",
+            "slug": "lee",
+            "fn": "Wilbert Te",
+            "short_fn": "Wilbert",
+            "ln": "Lee",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "lee.jpg",
+            "party": "Aksyon Demokratiko",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "36",
+            "slug": "lidasan",
+            "fn": "Amirah Ali",
+            "short_fn": "Amirah",
+            "ln": "Lidasan",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "lidasan.jpg",
+            "party": "Makabayang Koalisyon ng Mamamayan",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "37",
+            "slug": "marcoleta",
+            "fn": "Rodante Dizon",
+            "short_fn": "Rodante",
+            "ln": "Marcoleta",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "marcoleta.jpg",
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "38",
+            "slug": "marcos",
+            "fn": "Maria Imelda Romualdez",
+            "short_fn": "Imee",
+            "ln": "Marcos",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "marcos.jpg",
+            "party": "Nacionalista Party",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "39",
+            "slug": "marquez",
+            "fn": "Norman Cordero",
+            "short_fn": "Norman",
+            "ln": "Marquez",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "marquez.jpg",
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "40",
+            "slug": "martinez",
+            "fn": "Eric Morales",
+            "short_fn": "Eric",
+            "ln": "Martinez",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "martinez.jpg",
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "41",
+            "slug": "mata",
+            "fn": "Richard Tesorio",
+            "short_fn": "Richard",
+            "ln": "Mata",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "mata.jpg",
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "42",
+            "slug": "matula",
+            "fn": "Jose Sonny Gito",
+            "short_fn": "Sonny",
+            "ln": "Matula",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "matula.jpg",
+            "party": "Workers and Peasants Party",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "43",
+            "slug": "maza",
+            "fn": "Liza Largoza",
+            "short_fn": "Liza",
+            "ln": "Maza",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "maza.jpg",
+            "party": "Makabayang Koalisyon ng Mamamayan",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "44",
+            "slug": "mendoza",
+            "fn": "Heidi Lloce",
+            "short_fn": "Heidi",
+            "ln": "Mendoza",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "mendoza.jpg",
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "45",
+            "slug": "montemayor",
+            "fn": "Jose Jr. Cabrera",
+            "short_fn": "Jose Jr.",
+            "ln": "Montemayor",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "montemayor.jpg",
+            "party": "Partido Pederal ng Maharlika",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "46",
+            "slug": "olivar",
+            "fn": "Jose Jessie Dela Calsada",
+            "short_fn": "Jessie",
+            "ln": "Olivar",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "olivar.jpg",
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "47",
+            "slug": "ong",
+            "fn": "Willie Tan",
+            "short_fn": "Willie",
+            "ln": "Ong",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "ong.jpg",
+            "party": "Aksyon Demokratiko",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "48",
+            "slug": "pacquiao",
+            "fn": "Emmanuel Dapidran",
+            "short_fn": "Manny",
+            "ln": "Pacquiao",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "pacquiao.jpg",
+            "party": "Partido Federal ng Pilipinas",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "49",
+            "slug": "pangilinan",
+            "fn": "Francis Pancratius Nepomuceno",
+            "short_fn": "Kiko",
+            "ln": "Pangilinan",
+            "dob": "",
+            "term": 3,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "pangilinan.jpg",
+            "party": "Liberal Party of the Philippines",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "50",
+            "slug": "querubin",
+            "fn": "Ariel Porfirio Oliva",
+            "short_fn": "Ariel",
+            "ln": "Querubin",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "querubin.jpg",
+            "party": "Nacionalista Party",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "51",
+            "slug": "quiboloy",
+            "fn": "Apollo Carreon",
+            "short_fn": "Apollo",
+            "ln": "Quiboloy",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "quiboloy.jpg",
+            "party": "Workers and Peasants Party",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "52",
+            "slug": "ramos",
+            "fn": "Danilo Hernandez",
+            "short_fn": "Danilo",
+            "ln": "Ramos",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "ramos.jpg",
+            "party": "Makabayang Koalisyon ng Mamamayan",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "53",
+            "slug": "revilla",
+            "fn": "Ramon Jr. Bautista",
+            "short_fn": "Bong",
+            "ln": "Revilla",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "revilla.jpg",
+            "party": "Lakas-CMD",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "54",
+            "slug": "revillame",
+            "fn": "Wilfredo Buendia",
+            "short_fn": "Willie",
+            "ln": "Revillame",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "revillame.jpg",
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "55",
+            "slug": "rodriguez",
+            "fn": "Victor Dayrit",
+            "short_fn": "Victor",
+            "ln": "Rodriguez",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "rodriguez.jpg",
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "56",
+            "slug": "sahidulla",
+            "fn": "Nur-Ana Indanan",
+            "short_fn": "Nur-Ana",
+            "ln": "Sahidulla",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "sahidulla.jpg",
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "57",
+            "slug": "salvador",
+            "fn": "Phillip Reyes",
+            "short_fn": "Phillip",
+            "ln": "Salvador",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "salvador.jpg",
+            "party": "PDP-Laban",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "52",
+            "slug": "singson",
+            "fn": "Luis Crisologo",
+            "short_fn": "Luis",
+            "ln": "Singson",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "singson.jpg",
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "59",
+            "slug": "sotto",
+            "fn": "Vicente III Castelo",
+            "short_fn": "Tito",
+            "ln": "Sotto",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "sotto.jpg",
+            "party": "Nationalist People's Coalition",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "60",
+            "slug": "tapado",
+            "fn": "Michael Balais",
+            "short_fn": "Michael",
+            "ln": "Tapado",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "tapado.jpg",
+            "party": "Partido Maharlika",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "61",
+            "slug": "tolentino",
+            "fn": "Francis Ng",
+            "short_fn": "Francis",
+            "ln": "Tolentino",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "tolentino.jpg",
+            "party": "Partido Federal ng Pilipinas",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "62",
+            "slug": "tulfo-ben",
+            "fn": "Bienvenido Teshiba",
+            "short_fn": "Ben",
+            "ln": "Tulfo",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "tulfo-ben.jpg",
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "63",
+            "slug": "tulfo-erwin",
+            "fn": "Erwin Teshiba",
+            "short_fn": "Erwin",
+            "ln": "Tulfo",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "tulfo-erwin.jpg",
+            "party": "Lakas-CMD",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "64",
+            "slug": "valbuena",
+            "fn": "Mario Jr. Soliven",
+            "short_fn": "Mario Jr.",
+            "ln": "Valbuena",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "valbuena.jpg",
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "65",
+            "slug": "Verceles",
+            "fn": "Leandro Buenconsejo",
+            "short_fn": "Leandro",
+            "ln": "Verceles",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "verceles.jpg",
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "66",
+            "slug": "villar",
+            "fn": "Camille Aguilar",
+            "short_fn": "Camille",
+            "ln": "Villar",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
+            ],
+            "img": "villar.jpg",
+            "party": "Nacionalista Party",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        }
+    ],
+    "congress": []
+}

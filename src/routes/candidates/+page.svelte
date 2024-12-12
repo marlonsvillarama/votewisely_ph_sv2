@@ -1,12 +1,10 @@
 <script>
-	import abalos from '$lib/images/profiles/abalos.jpg'
-	import adonis from '$lib/images/profiles/adonis.jpg'
-	import amad from '$lib/images/profiles/amad.jpg'
+    export let data;
 </script>
 
 <svelte:head>
-	<title>VoteWisely.PH - List of Candidates</title>
-	<meta name="description" content="List of Candidates" />
+	<title>VoteWisely.PH - Candidates</title>
+	<meta name="description" content="Candidates" />
 </svelte:head>
 
 <section class="candidates hero">
@@ -23,46 +21,9 @@
     <a href="./">Congress</a>
 </nav>
 
-<div class="candidates content wrapper">
-    <div id="abalos" class="card candidate">
-        <img src={abalos} alt="Abalos" />
-        <div class="name">
-            <span class="ln">Abalos</span>
-            <span>Benhur Jr.</span>
-        </div>
-        <div class="tags">
-            <span class="tag alert">Political family</span>
-            <span class="tag">Former DILG Secretary</span>
-        </div>
-    </div>
-
-    <div id="adonis" class="card candidate">
-        <img src={adonis} alt="Adonis" />
-        <div class="name">
-            <span class="ln">Adonis</span>
-            <span>Ronaldo</span>
-        </div>
-        <div class="tags">
-            <span class="tag">Independent</span>
-        </div>
-    </div>
-
-    <div id="amad" class="card candidate">
-        <img src={amad} alt="Amad" />
-        <div class="name">
-            <span class="ln">Amad</span>
-            <span>Wilson</span>
-        </div>
-        <div class="tags">
-            <span class="tag">Independent</span>
-            <span class="tag">Attorney</span>
-        </div>
-    </div>
-</div>
-
 <style>
 	.candidates.hero {
-		background: url('../../lib/images/candidates.jpg') 50% 50%;
+		background: url('/images/candidates.jpg') 50% 50%;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;

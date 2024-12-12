@@ -1,0 +1,68 @@
+{
+    "F_C": {
+        "text": "former councilor"
+    },
+    "F_M": {
+        "text": "former mayor"
+    },
+    "F_VM": {
+        "text": "former vice mayor"
+    },
+    "F_CM": {
+        "text": "former cabinet member"
+    },
+    "F_R": {
+        "text": "former representative"
+    },
+    "F_S": {
+        "text": "former senator",
+        "alert": true
+    },
+    "F_VP": {
+        "text": "former vice president",
+        "alert": true
+    },
+    "F_P": {
+        "text": "former president",
+        "alert": true
+    },
+    "I_C": {
+        "text": "incumbent councilor"
+    },
+    "I_M": {
+        "text": "incumbent mayor"
+    },
+    "I_VM": {
+        "text": "incumbent vice mayor"
+    },
+    "I_CM": {
+        "text": "cabinet member"
+    },
+    "I_R": {
+        "text": "incumbent representative"
+    },
+    "I_S": {
+        "text": "incumbent senator",
+        "alert": true
+    },
+    "I_VP": {
+        "text": "incumbent vice president",
+        "alert": true
+    },
+    "I_P": {
+        "text": "incumbent president",
+        "alert": true
+    },
+    "PF": {
+        "text": "political family",
+        "alert": true
+    },
+    "MIL": {
+        "text": "millionaire",
+        "alert": true
+    },
+    "BIL": {
+        "text": "billionaire",
+        "alert": true
+    }
+}
