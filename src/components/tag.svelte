@@ -28,7 +28,7 @@
 		border-radius: 4px;
 		background-color: rgba(0, 0, 0, 0.1);
 		color: var(--color-default);
-		font-size: var(--fs-xxs);
+		font-size: var(--fs-xs);
         letter-spacing: 0.5px;
 	}
 	.tag.alert {

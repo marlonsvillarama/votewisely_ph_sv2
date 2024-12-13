@@ -25,7 +25,7 @@
 	</div>
 </section>
 
-<div class="wrapper">
+<div class="filters wrapper">
     <Filters />
 </div>
 
@@ -62,10 +62,12 @@
     }
 	.content {
 		display: flex;
+        /* flex: 2 1 auto; */
 		/* flex-direction: column; */
         flex-wrap: wrap;
 		color: var(--color-default);
-		gap: 2rem;
+		gap: 1.5rem;
+        justify-content: flex-start;
 	}
 
 </style>

@@ -1,4 +1,5 @@
 <script>
+    import { createEventDispatcher } from "svelte";
     import Tag from "./tag.svelte";
 
     export let data = {};
@@ -10,26 +11,24 @@
     };
 
     let slug = data.slug || 'candidate';
-    console.log('slug', slug);
     let first = data.short_fn || 'First';
     let last = data.ln || 'Last';
     let age = calculateAge({ dob: data.dob });
     let showAge = !!data.dob === true;
-
     let job = data.job || '';
-
     let imgUrl = `/images/profiles/${slug}.jpg`;
+
 </script>
 
-<div id={slug || 'candidate'} class="card candidate">
+<div id={slug || 'candidate'} class="card candidate" on:click={viewProfile}>
     <div class="header">
         <img src={imgUrl} alt={last} />
         <aside>
             <div class="name">
                 <span class="ln">{last}</span>
                 <span class="fn">{first}</span>
+                <span class="age">{#if showAge}{age} years old{:else}test{/if}</span>
             </div>
-            <span class="age">{#if showAge}{age} years old{:else}test{/if}</span>
             <span class="job">{job}</span>
         </aside>
     </div>
@@ -46,7 +45,7 @@
 
 <style>
     .candidate {
-        /* cursor: pointer; */
+        cursor: pointer;
 		box-shadow: var(--card-shadow);
         transition: all 100ms ease-in-out;
         margin: 0 auto;
@@ -62,7 +61,7 @@
     }
     .candidate:hover {
         box-shadow: var(--card-shadow-full);
-        transform: translateY(-3px);
+        transform: scale(105%);
     }
     .header {
         display: grid;
@@ -78,7 +77,7 @@
 	}
     .header aside {
         /* border: 1px solid green; */
-        padding: 0.5rem 0 0;
+        padding: 0.5rem 0;
         display: flex;
         flex-direction: column;
         justify-content: space-between;

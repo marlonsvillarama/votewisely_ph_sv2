@@ -30,7 +30,7 @@
 
 <style>
     .hero {
-		background: url("../lib/images/ph-flag.jpg") 50% 50%;
+		background: url("/images/ph-flag.jpg") 50% 50%;
 	}
 
 </style>

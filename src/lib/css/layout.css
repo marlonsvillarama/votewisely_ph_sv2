@@ -11,6 +11,7 @@ main {
     margin: 0 auto;
     /* width: 100%; */
     position: relative;
+    /* border: 1px solid red; */
 }
 .row .content {
     text-align: center;
