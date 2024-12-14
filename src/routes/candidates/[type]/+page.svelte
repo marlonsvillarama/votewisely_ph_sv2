@@ -16,7 +16,7 @@
 
     const filterList = (e) => {
         filters = e.detail.filters;
-        console.log('filters', filters);
+        // console.log('filters', filters);
 
         if (filters.length <= 0) {
             list = data.candidates[slug];
@@ -34,11 +34,13 @@
             return output;
         });
 
-        console.log('filtered List', list);
+        // console.log('filtered List', list);
     };
 
     const goToProfile = (e) => {
-        console.log('gotoProfile', e.target.slug);
+        console.log('gotoProfile url path', $page.url.pathname);
+        console.log('gotoProfile slug', e.detail.slug);
+        window.location = `${$page.url.pathname}/${e.detail.slug}`;
     };
 </script>
 
@@ -61,7 +63,7 @@
 <div class="content wrapper">
 
     {#each list as candidate}
-        <Candidate data={candidate} />
+        <Candidate data={candidate} visible="true" on:click={goToProfile} />
     {/each}
 
 </div>

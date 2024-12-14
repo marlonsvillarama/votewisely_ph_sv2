@@ -10,31 +10,34 @@
         return age;
     };
 
+    // console.log('candidate data', data);
     let slug = data.slug || 'candidate';
     let first = data.short_fn || 'First';
     let last = data.ln || 'Last';
     let age = calculateAge({ dob: data.dob });
     let showAge = !!data.dob === true;
     let job = data.job || '';
-    let imgUrl = `/images/profiles/${slug}.jpg`;
+    let imgUrl = `/images/profiles/${data.slug}.jpg`;
 
     let dispatch = createEventDispatcher();
     const viewProfile = (e) => {
-        console.log('viewProfile', slug);
+        // console.log('viewProfile', slug);
         dispatch('click', { slug });
     };
 </script>
 
-<buttton id={slug || 'candidate'} class="card candidate" on:click={viewProfile}>
+<!-- svelte-ignore a11y_click_events_have_key_events -->
+<!-- svelte-ignore a11y_no_static_element_interactions -->
+<buttton id={data.slug || 'candidate'} class="card candidate" on:click={viewProfile}>
     <div class="header">
-        <img src={imgUrl} alt={last} />
+        <img src="/images/profiles/{data.slug}.jpg" alt={data.last} />
         <aside>
             <div class="name">
-                <span class="ln">{last}</span>
-                <span class="fn">{first}</span>
+                <span class="ln">{data.ln}</span>
+                <span class="fn">{data.short_fn}</span>
                 <span class="age">{#if showAge}{age} years old{:else}test{/if}</span>
             </div>
-            <span class="job">{job}</span>
+            <span class="job">{data.job}</span>
         </aside>
     </div>
     <div class="contents">
