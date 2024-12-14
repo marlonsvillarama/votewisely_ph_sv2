@@ -1,68 +1,70 @@
-{
-    "F_C": {
-        "text": "former councilor"
-    },
-    "F_M": {
-        "text": "former mayor"
-    },
-    "F_VM": {
-        "text": "former vice mayor"
-    },
-    "F_CM": {
-        "text": "former cabinet member"
-    },
-    "F_R": {
-        "text": "former representative"
-    },
-    "F_S": {
-        "text": "former senator",
+[
+    {
+        "id": "PF",
+        "text": "Political Family",
         "alert": true
     },
-    "F_VP": {
-        "text": "former vice president",
+    {
+        "id": "T1",
+        "text": "For first term"
+    },
+    {
+        "id": "T2",
+        "text": "For second term"
+    },
+    {
+        "id": "T3",
+        "text": "For third term"
+    },
+    {
+        "id": "IN",
+        "text": "Independent"
+    },
+    {
+        "id": "BIL",
+        "text": "Billionaire",
         "alert": true
     },
-    "F_P": {
-        "text": "former president",
+    {
+        "id": "MIL",
+        "text": "Millionaire",
         "alert": true
     },
-    "I_C": {
-        "text": "incumbent councilor"
-    },
-    "I_M": {
-        "text": "incumbent mayor"
-    },
-    "I_VM": {
-        "text": "incumbent vice mayor"
-    },
-    "I_CM": {
-        "text": "cabinet member"
-    },
-    "I_R": {
-        "text": "incumbent representative"
-    },
-    "I_S": {
-        "text": "incumbent senator",
+    {
+        "id": "O60",
+        "text": "Over 60 Years Old",
         "alert": true
     },
-    "I_VP": {
-        "text": "incumbent vice president",
+    {
+        "id": "O70",
+        "text": "Over 70 Years Old",
         "alert": true
     },
-    "I_P": {
-        "text": "incumbent president",
+    {
+        "id": "FP",
+        "text": "Former President",
         "alert": true
     },
-    "PF": {
-        "text": "political family",
+    {
+        "id": "FVP",
+        "text": "Former Vice President",
         "alert": true
     },
-    "MIL": {
-        "text": "millionaire",
+    {
+        "id": "FCM",
+        "text": "Former Cabinet Member"
+    },
+    {
+        "id": "FS",
+        "text": "Former Senator",
         "alert": true
     },
-    "BIL": {
-        "text": "billionaire",
-        "alert": true
+    {
+        "id": "FR",
+        "text": "Former Representative"
+    },
+    {
+        "id": "FM",
+        "text": "Former Mayor"
     }
-}
+]

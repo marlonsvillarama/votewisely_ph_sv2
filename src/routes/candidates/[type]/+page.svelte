@@ -10,7 +10,36 @@
     let slugProper = slug.charAt(0).toUpperCase() + slug.slice(1);
     let slugTitle = `Candidates for ${slugProper}`;
 
-    let list = data[slug];
+    let tags = data.tags;
+    let list = data.candidates[slug];
+    let filters = [];
+
+    const filterList = (e) => {
+        filters = e.detail.filters;
+        console.log('filters', filters);
+
+        if (filters.length <= 0) {
+            list = data.candidates[slug];
+            return;
+        }
+
+        list = data.candidates[slug].filter(item => {
+            let output = false;
+            for (let i = 0, count = filters.length; i < count; i++) {
+                if (item.tags.indexOf(filters[i]) < 0) { continue; }
+
+                output = true;
+            }
+
+            return output;
+        });
+
+        console.log('filtered List', list);
+    };
+
+    const goToProfile = (e) => {
+        console.log('gotoProfile', e.target.slug);
+    };
 </script>
 
 <svelte:head>
@@ -26,7 +55,7 @@
 </section>
 
 <div class="filters wrapper">
-    <Filters />
+    <Filters data={tags} filters={filters} on:select={filterList} />
 </div>
 
 <div class="content wrapper">
@@ -55,10 +84,6 @@
         .hero {
             padding: 10.5rem 0 8rem;
         }
-    }
-
-    .filters {
-        border: 1px solid red;
     }
 	.content {
 		display: flex;

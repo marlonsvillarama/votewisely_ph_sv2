@@ -1,7 +1,11 @@
 <script>
-    export let text = 'Tag';
+    import { createEventDispatcher } from "svelte";
+
     export let alert = false;
     export let enable = false;
+    export let text = 'Tag';
+    export let value = 'TAG';
+    let selected = false;
     
     const generateId = (length = 10) => {
         const TITLE = `generateId`;
@@ -16,10 +20,31 @@
 
         return result;
     };
+
     let id = generateId();
+    let dispatch = createEventDispatcher();
+
+    const getClass = () => {
+        let classList = [ 'tag' ];
+
+        if (alert) { classList.push('alert'); }
+        if (enable) { classList.push('enable'); }
+        if (selected) { classList.push('selected'); }
+
+        return classList.join(' ');
+    };
+    let tagClass = getClass();
+
+    const clickTag = (e) => {
+        if (enable === false) { return; }
+
+        selected = !selected;
+        tagClass = getClass();
+        dispatch('click', { value, add: selected });
+    };
 </script>
 
-<span id={id} class="tag{alert ? ' alert' : ''}{enable ? ' enable' : ''}">{text}</span>
+<div id={id} class={tagClass} on:click={clickTag}>{text}</div>
 
 <style>
     .tag {
@@ -30,6 +55,7 @@
 		color: var(--color-default);
 		font-size: var(--fs-xs);
         letter-spacing: 0.5px;
+        position: relative;
 	}
 	.tag.alert {
 		background-color: var(--color-red-flag);
@@ -37,8 +63,15 @@
 	}
     .tag.enable {
         cursor: pointer;
+        /* border: 3px solid transparent; */
     }
     .tag.enable:hover {
 		background-color: rgba(0, 0, 0, 0.15);
+    }
+    .tag.selected,
+    .tag.selected:hover {
+        background-color: var(--color-red-flag);
+        color: var(--color-white);
+        box-shadow: var(--box-shadow);
     }
 </style>

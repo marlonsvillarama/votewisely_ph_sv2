@@ -1,0 +1,96 @@
+[
+    {
+        "id": "PF",
+        "text": "Political Family",
+        "alert": true
+    },
+    {
+        "id": "BIL",
+        "text": "Billionaire",
+        "alert": true
+    },
+    {
+        "id": "O_60",
+        "text": "Over 60 Years Old",
+        "alert": true
+    },
+    {
+        "id": "O_70",
+        "text": "Over 70 Years Old",
+        "alert": true
+    },
+    {
+        "id": "T_1",
+        "text": "For first term"
+    },
+    {
+        "id": "T_2",
+        "text": "For second term"
+    },
+    {
+        "id": "T_3",
+        "text": "For third term"
+    },
+    /* {
+        "id": "I_P",
+        "text": "Incumbent President",
+        "alert": true
+    }, */
+    /* {
+        "id": "I_VP",
+        "text": "Incumbent Vice President",
+        "alert": true
+    }, */
+    /* {
+        "id": "I_S",
+        "text": "Incumbent Senator",
+        "alert": true
+    }, */
+    /* {
+        "id": "I_R",
+        "text": "Incumbent Representative"
+    }, */
+    {
+        "id": "I_CM",
+        "text": "Cabinet Member"
+    },
+    {
+        "id": "I_M",
+        "text": "Incumbent Mayor"
+    },
+    {
+        "id": "I_VM",
+        "text": "Incumbent Vice Mayor"
+    },
+    {
+        "id": "F_P",
+        "text": "Former President",
+        "alert": true
+    },
+    {
+        "id": "F_CM",
+        "text": "Former Cabinet Member"
+    },
+    {
+        "id": "F_VP",
+        "text": "Former Vice President",
+        "alert": true
+    },
+    {
+        "id": "F_S",
+        "text": "Former Senator",
+        "alert": true
+    },
+    {
+        "id": "F_R",
+        "text": "Former Representative"
+    },
+    {
+        "id": "F_M",
+        "text": "Former Mayor"
+    },
+    {
+        "id": "F_VM",
+        "text": "Former Vice Mayor"
+    }
+]

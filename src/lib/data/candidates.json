@@ -11,15 +11,12 @@
             "dob": "19620719",
             "job": "Former DILG secretary",
             "term": 1,
-            "short_tags": [
-                { "text": "Political Family", "alert": true },
-                { "text": "For first term" }
-            ],
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_M" },
-                { "text": "F_R" },
-                { "text": "F_CM" }
+                "PF",
+                "T1",
+                "FM",
+                "FR",
+                "FCM"
             ],
             "img": "abalos.jpg",
             "party": "Partido Federal ng Pilipinas",
@@ -89,10 +86,9 @@
             "dob": "",
             "job": "Activist",
             "term": 1,
-            "short_tags": [
-                { "text": "For first term" }
+            "tags": [
+                "T_1"
             ],
-            "tags": [],
             "img": "adonis.jpg",
             "party": "Makabayang Koalisyon ng Mamamayan",
             "exp": [],
@@ -111,10 +107,9 @@
             "dob": "",
             "job": "Lawyer/Activist",
             "term": 1,
-            "short_tags": [
-                { "text": "For first term" }
+            "tags": [
+                "T1"
             ],
-            "tags": [],
             "img": "adonis.jpg",
             "party": "Independent",
             "exp": [],
@@ -133,10 +128,9 @@
             "dob": "",
             "job": "Registered Nurse",
             "term": 1,
-            "short_tags": [
-                { "text": "For first term" }
+            "tags": [
+                "T_1"
             ],
-            "tags": [],
             "img": "adonis.jpg",
             "party": "Makabayang Koalisyon ng Mamamayan",
             "exp": [],
@@ -155,13 +149,9 @@
             "dob": "19770507",
             "job": "Former Senator",
             "term": 2,
-            "short_tags": [
-                { "text": "Political Family", "alert": true },
-                { "text": "For second term" }
-            ],
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "PF",
+                "T2"
             ],
             "img": "abalos.jpg",
             "party": "Katipunan ng Nagkakaisang Pilipino",
@@ -237,12 +227,9 @@
             "dob": "",
             "job": "Fisherfolk/Activist",
             "term": 1,
-            "short_tags": [
-                { "text": "For first term" }
-            ],
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "PF",
+                "T1"
             ],
             "img": "arambulo.jpg",
             "party": "Makabayang Koalisyon ng Mamamayan",
@@ -283,8 +270,8 @@
             "job": "Fisherfolk/Activist",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "PF",
+                "T1"
             ],
             "img": "ballon.jpg",
             "party": "Independent",
@@ -305,8 +292,8 @@
             "job": "Mayor",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "PF",
+                "T1"
             ],
             "img": "binay.jpg",
             "party": "Nationalist People's Coalition",
@@ -327,8 +314,7 @@
             "job": "Attorney",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "bondoc.jpg",
             "party": "PDP-Laban",
@@ -349,8 +335,7 @@
             "job": "Former Colonel",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "bosita.jpg",
             "party": "Independent",
@@ -371,8 +356,7 @@
             "job": "Congresswoman",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "brosas.jpg",
             "party": "Makabayang Koalisyon ng Mamamayan",
@@ -392,8 +376,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "cabonegro.jpg",
             "party": "Democratic Party of the Philippines",
@@ -413,8 +396,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "capuyan.jpg",
             "party": "Partido Pilipino sa Pagbabago",
@@ -434,8 +416,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "casino.jpg",
             "party": "Makabayang Koalisyon ng Mamamayan",
@@ -455,8 +436,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "castro.jpg",
             "party": "Makabayang Koalisyon ng Mamamayan",
@@ -476,8 +456,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "cayetano.jpg",
             "party": "Nacionalista Party",
@@ -497,8 +476,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "dealban.jpg",
             "party": "Independent",
@@ -518,8 +496,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "dangelo.jpg",
             "party": "Bunyog Pagkakaisa Party",
@@ -539,8 +516,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "deguzman.jpg",
             "party": "Partido Lakas ng Masa",
@@ -560,8 +536,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "delarosa.jpg",
             "party": "PDP-Laban",
@@ -581,8 +556,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "doringo.jpg",
             "party": "Makabayang Koalisyon ng Mamamayan",
@@ -602,8 +576,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "escobal.jpg",
             "party": "Partido Maharlika",
@@ -623,8 +596,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "espiritu.jpg",
             "party": "Partido Lakas ng Masa",
@@ -644,8 +616,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "floranda.jpg",
             "party": "Makabayang Koalisyon ng Mamamayan",
@@ -665,8 +636,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "gamboa.jpg",
             "party": "Independent",
@@ -686,8 +656,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "go.jpg",
             "party": "PDP-Laban",
@@ -707,8 +676,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "gonzales.jpg",
             "party": "Partido Demokratiko Sosyalista ng Pilipinas",
@@ -728,8 +696,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "hinlo.jpg",
             "party": "PDP-Laban",
@@ -749,8 +716,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "honasan.jpg",
             "party": "Reform PH-People's Party",
@@ -770,8 +736,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "jose.jpg",
             "party": "Kilusang Bagong Lipunan",
@@ -791,8 +756,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "lacson.jpg",
             "party": "Independent",
@@ -812,8 +776,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "lambino.jpg",
             "party": "PDP-Laban",
@@ -833,8 +796,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "lapid.jpg",
             "party": "Nationalist People's Coalition",
@@ -854,8 +816,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "lee.jpg",
             "party": "Aksyon Demokratiko",
@@ -875,8 +836,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "lidasan.jpg",
             "party": "Makabayang Koalisyon ng Mamamayan",
@@ -896,8 +856,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "marcoleta.jpg",
             "party": "Independent",
@@ -917,8 +876,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "marcos.jpg",
             "party": "Nacionalista Party",
@@ -938,8 +896,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "marquez.jpg",
             "party": "Independent",
@@ -959,8 +916,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "martinez.jpg",
             "party": "Independent",
@@ -980,8 +936,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "mata.jpg",
             "party": "Independent",
@@ -1001,8 +956,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "matula.jpg",
             "party": "Workers and Peasants Party",
@@ -1022,8 +976,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "maza.jpg",
             "party": "Makabayang Koalisyon ng Mamamayan",
@@ -1043,8 +996,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "mendoza.jpg",
             "party": "Independent",
@@ -1064,8 +1016,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "montemayor.jpg",
             "party": "Partido Pederal ng Maharlika",
@@ -1085,8 +1036,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "olivar.jpg",
             "party": "Independent",
@@ -1106,8 +1056,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "ong.jpg",
             "party": "Aksyon Demokratiko",
@@ -1127,8 +1076,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "pacquiao.jpg",
             "party": "Partido Federal ng Pilipinas",
@@ -1148,8 +1096,7 @@
             "dob": "",
             "term": 3,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "pangilinan.jpg",
             "party": "Liberal Party of the Philippines",
@@ -1169,8 +1116,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "querubin.jpg",
             "party": "Nacionalista Party",
@@ -1190,8 +1136,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "quiboloy.jpg",
             "party": "Workers and Peasants Party",
@@ -1211,8 +1156,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "ramos.jpg",
             "party": "Makabayang Koalisyon ng Mamamayan",
@@ -1232,8 +1176,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "revilla.jpg",
             "party": "Lakas-CMD",
@@ -1253,8 +1196,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "revillame.jpg",
             "party": "Independent",
@@ -1274,8 +1216,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "rodriguez.jpg",
             "party": "Independent",
@@ -1295,8 +1236,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "sahidulla.jpg",
             "party": "Independent",
@@ -1316,8 +1256,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "salvador.jpg",
             "party": "PDP-Laban",
@@ -1337,8 +1276,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "singson.jpg",
             "party": "Independent",
@@ -1358,8 +1296,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "sotto.jpg",
             "party": "Nationalist People's Coalition",
@@ -1379,8 +1316,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "tapado.jpg",
             "party": "Partido Maharlika",
@@ -1400,8 +1336,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "tolentino.jpg",
             "party": "Partido Federal ng Pilipinas",
@@ -1421,8 +1356,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "tulfo-ben.jpg",
             "party": "Independent",
@@ -1442,8 +1376,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "tulfo-erwin.jpg",
             "party": "Lakas-CMD",
@@ -1463,8 +1396,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "valbuena.jpg",
             "party": "Independent",
@@ -1484,8 +1416,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "verceles.jpg",
             "party": "Independent",
@@ -1505,8 +1436,7 @@
             "dob": "",
             "term": 1,
             "tags": [
-                { "text": "PF", "alert": true },
-                { "text": "F_S" }
+                "T1"
             ],
             "img": "villar.jpg",
             "party": "Nacionalista Party",

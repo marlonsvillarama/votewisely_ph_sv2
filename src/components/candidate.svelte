@@ -18,9 +18,14 @@
     let job = data.job || '';
     let imgUrl = `/images/profiles/${slug}.jpg`;
 
+    let dispatch = createEventDispatcher();
+    const viewProfile = (e) => {
+        console.log('viewProfile', slug);
+        dispatch('click', { slug });
+    };
 </script>
 
-<div id={slug || 'candidate'} class="card candidate" on:click={viewProfile}>
+<buttton id={slug || 'candidate'} class="card candidate" on:click={viewProfile}>
     <div class="header">
         <img src={imgUrl} alt={last} />
         <aside>
@@ -36,12 +41,12 @@
         <span class="party">{data.party}</span>
         <div class="tags">
             {#each data.short_tags as tag}
-                <Tag alert={tag.alert} text={tag.text} enable=true />
+                <Tag alert={tag.alert} text={tag.text} />
                 <!-- <span class="tag {tag.alert ? 'alert' : ''}">{tag.text}</span> -->
             {/each}
         </div>
     </div>
-</div>
+</buttton>
 
 <style>
     .candidate {
