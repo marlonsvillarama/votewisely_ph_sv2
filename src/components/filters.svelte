@@ -1,7 +1,7 @@
 <script>
     import { createEventDispatcher } from "svelte";
     import Tag from "./tag.svelte";
-    export let data = [];
+    export let list = [];
     let filters = [];
 
     let dispatch = createEventDispatcher();
@@ -20,16 +20,48 @@
 
         dispatch('select', { filters });
     };
+
+    const clearAllTags = () => {
+        filters = [];
+        dispatch('clear', {});
+    };
 </script>
 
-<!-- <h1>Filters</h1> -->
+<div class="header">
+    <h2>Filters</h2>
+    <button on:click={clearAllTags}>Clear Filters</button>
+</div>
 <section>
-    {#each data as tag}
-        <Tag enable="true" text={tag.text} value={tag.id} on:click={clickTag} />
+    {#each list as tag}
+        <Tag enable="true" tag={tag} on:click={clickTag} />
     {/each}
 </section>
 
 <style>
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid var(--color-blue-flag);
+        margin-bottom: 0.75rem;
+    }
+    .header h2 {
+        font-size: var(--fs-md);
+    }
+    .header button {
+        padding: 0.5rem 1rem;
+        border: 0;
+        border-radius: 0.5rem;
+        background-color: var(--color-red-flag-lite);
+        color: white;
+        font-size: var(--fs-xs);
+        cursor: pointer;
+        transition: all 50ms ease-in-out;
+    }
+    .header button:hover {
+        background-color: var(--color-red-flag);
+    }
     section {
         /* border: 1px solid green; */
         display: flex;

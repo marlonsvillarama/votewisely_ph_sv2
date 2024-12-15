@@ -2,7 +2,9 @@
     import { createEventDispatcher } from "svelte";
     import Tag from "./tag.svelte";
 
-    export let data = {};
+    export let candidate = {};
+    export let tags = [];
+    let candidateTags = candidate.tags.slice(0, 2);
 
     const calculateAge = (options) => {
         let { dob } = options;
@@ -10,42 +12,53 @@
         return age;
     };
 
-    // console.log('candidate data', data);
-    let slug = data.slug || 'candidate';
-    let first = data.short_fn || 'First';
-    let last = data.ln || 'Last';
-    let age = calculateAge({ dob: data.dob });
-    let showAge = !!data.dob === true;
-    let job = data.job || '';
-    let imgUrl = `/images/profiles/${data.slug}.jpg`;
+    let age = calculateAge({ dob: candidate.dob });
+    let showAge = !!candidate.dob === true;
+    
+    const generateId = (length = 10) => {
+        const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+        let result = '';
+
+        let counter = 0;
+        while (counter < length) {
+            result += characters.charAt(Math.floor(Math.random() * characters.length));
+            counter++;
+        }
+
+        return result;
+    };
+    let id = generateId();
+
+    const getTag = (id) => {
+        let tag = tags.find(t => t.id === id);
+        return tag;
+    };
 
     let dispatch = createEventDispatcher();
     const viewProfile = (e) => {
-        // console.log('viewProfile', slug);
-        dispatch('click', { slug });
+        dispatch('click', { slug: data.slug });
     };
 </script>
 
 <!-- svelte-ignore a11y_click_events_have_key_events -->
 <!-- svelte-ignore a11y_no_static_element_interactions -->
-<buttton id={data.slug || 'candidate'} class="card candidate" on:click={viewProfile}>
+<buttton id={id} class="card candidate" data-tags={candidate.tags.join(',')} on:click={viewProfile}>
     <div class="header">
-        <img src="/images/profiles/{data.slug}.jpg" alt={data.last} />
+        <img src="/images/profiles/{candidate.slug}.jpg" alt={candidate.last} />
         <aside>
             <div class="name">
-                <span class="ln">{data.ln}</span>
-                <span class="fn">{data.short_fn}</span>
+                <span class="ln">{candidate.ln}</span>
+                <span class="fn">{candidate.short_fn}</span>
                 <span class="age">{#if showAge}{age} years old{:else}test{/if}</span>
             </div>
-            <span class="job">{data.job}</span>
+            <span class="job">{candidate.job}</span>
         </aside>
     </div>
     <div class="contents">
-        <span class="party">{data.party}</span>
+        <span class="party">{candidate.party}</span>
         <div class="tags">
-            {#each data.short_tags as tag}
-                <Tag alert={tag.alert} text={tag.text} />
-                <!-- <span class="tag {tag.alert ? 'alert' : ''}">{tag.text}</span> -->
+            {#each candidateTags as tag}
+                <Tag tag={getTag(tag)} />
             {/each}
         </div>
     </div>

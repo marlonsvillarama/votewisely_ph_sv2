@@ -87,7 +87,7 @@
             "job": "Activist",
             "term": 1,
             "tags": [
-                "T_1"
+                "T1"
             ],
             "img": "adonis.jpg",
             "party": "Makabayang Koalisyon ng Mamamayan",
@@ -108,7 +108,8 @@
             "job": "Lawyer/Activist",
             "term": 1,
             "tags": [
-                "T1"
+                "T1",
+                "IN"
             ],
             "img": "adonis.jpg",
             "party": "Independent",
@@ -129,7 +130,7 @@
             "job": "Registered Nurse",
             "term": 1,
             "tags": [
-                "T_1"
+                "T1"
             ],
             "img": "adonis.jpg",
             "party": "Makabayang Koalisyon ng Mamamayan",
@@ -151,6 +152,7 @@
             "term": 2,
             "tags": [
                 "PF",
+                "FS",
                 "T2"
             ],
             "img": "abalos.jpg",
@@ -228,7 +230,6 @@
             "job": "Fisherfolk/Activist",
             "term": 1,
             "tags": [
-                "PF",
                 "T1"
             ],
             "img": "arambulo.jpg",
@@ -250,6 +251,7 @@
             "job": "Lawyer",
             "term": 1,
             "tags": [
+                "T1"
             ],
             "img": "arellano.jpg",
             "party": "Kamalayang Kayumanggi",
@@ -270,7 +272,6 @@
             "job": "Fisherfolk/Activist",
             "term": 1,
             "tags": [
-                "PF",
                 "T1"
             ],
             "img": "ballon.jpg",

@@ -6,35 +6,48 @@
     export let data;
 
     let slug = $page.params.type;
-    console.log(slug);
     let slugProper = slug.charAt(0).toUpperCase() + slug.slice(1);
     let slugTitle = `Candidates for ${slugProper}`;
 
-    let tags = data.tags;
-    let list = data.candidates[slug];
+    // let tags = data.tags;
+    let candidates = data.candidates[slug];
     let filters = [];
+
+    const clearFilters = () => {
+        filters = [];
+        filterList({ detail: { filters } });
+    };
 
     const filterList = (e) => {
         filters = e.detail.filters;
         // console.log('filters', filters);
 
+        let cards = document.querySelectorAll('.card.candidate');
+        // console.log('cards', cards);
+
         if (filters.length <= 0) {
-            list = data.candidates[slug];
+            cards.forEach(c => {
+                c.style.display = 'inline-block';
+                return true;
+            });
             return;
         }
 
-        list = data.candidates[slug].filter(item => {
-            let output = false;
+        cards.forEach(c => {
+            c.style.display = 'none';
+            return true;
+        });
+        cards.forEach(c => {
+            let ct = c.dataset.tags ? c.dataset.tags.split(',') : [];
             for (let i = 0, count = filters.length; i < count; i++) {
-                if (item.tags.indexOf(filters[i]) < 0) { continue; }
+                if (ct.indexOf(filters[i]) < 0) { continue; }
 
-                output = true;
+                c.style.display = 'inline-block';
+                break;
             }
 
-            return output;
+            return true;
         });
-
-        // console.log('filtered List', list);
     };
 
     const goToProfile = (e) => {
@@ -57,13 +70,13 @@
 </section>
 
 <div class="filters wrapper">
-    <Filters data={tags} filters={filters} on:select={filterList} />
+    <Filters list={data.tags} filters={filters} on:select={filterList} on:clear={clearFilters} />
 </div>
 
 <div class="content wrapper">
 
-    {#each list as candidate}
-        <Candidate data={candidate} visible="true" on:click={goToProfile} />
+    {#each candidates as candidate}
+        <Candidate candidate={candidate} tags={data.tags} on:click={goToProfile} />
     {/each}
 
 </div>
