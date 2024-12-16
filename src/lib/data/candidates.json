@@ -18,7 +18,8 @@
                 "FR",
                 "FCM"
             ],
-            "img": "abalos.jpg",
+            "web": "https://benjaminabalosjr.com/",
+            "email": "",
             "party": "Partido Federal ng Pilipinas",
             "exp": [{
                 "value": "Secretary - Department of Interior and Local Government (2022-2024)",
@@ -72,9 +73,18 @@
                 "De La Salle University - Bachelor of Arts in History and Political Science"
             ],
             "news": [
-                "<a href=\"https://www.gmanetwork.com/news/topstories/nation/919508/abalos-explains-viral-photo-with-alice-guo/story/\" target=\"_blank\">Abalos explains viral photo with Alice Guo</a>",
-                "<a href=\"https://www.gmanetwork.com/news/topstories/nation/919806/abalos-complaint-duterte-quiboloy/story/#goog_rewarded\" target=\"_blank\">Abalos says ex-Pres. Duterte has filed complaint against him, Marbil amid Quiboloy hunt</a>",
-                "<a href=\"https://www.manilatimes.net/2023/01/30/news/regions/abalos-govt-in-big-fight-vs-drug-rings/1876455\" target=\"_blank\">Abalos: Govt in big fight vs drug rings</a>"
+                {
+                    "link": "https://www.gmanetwork.com/news/topstories/nation/919508/abalos-explains-viral-photo-with-alice-guo/story/",
+                    "text": "Abalos explains viral photo with Alice Guo"
+                },
+                {
+                    "link": "https://www.gmanetwork.com/news/topstories/nation/919806/abalos-complaint-duterte-quiboloy/story/#goog_rewarded",
+                    "text": "Abalos says ex-Pres. Duterte has filed complaint against him, Marbil amid Quiboloy hunt"
+                },
+                {
+                    "link": "https://www.manilatimes.net/2023/01/30/news/regions/abalos-govt-in-big-fight-vs-drug-rings/1876455",
+                    "text": "Abalos: Govt in big fight vs drug rings"
+                }
             ]
         },
         {
@@ -89,7 +99,6 @@
             "tags": [
                 "T1"
             ],
-            "img": "adonis.jpg",
             "party": "Makabayang Koalisyon ng Mamamayan",
             "exp": [],
             "adv": [],
@@ -111,7 +120,6 @@
                 "T1",
                 "IN"
             ],
-            "img": "adonis.jpg",
             "party": "Independent",
             "exp": [],
             "adv": [],
@@ -132,7 +140,6 @@
             "tags": [
                 "T1"
             ],
-            "img": "adonis.jpg",
             "party": "Makabayang Koalisyon ng Mamamayan",
             "exp": [],
             "adv": [],
@@ -148,14 +155,13 @@
             "short_fn": "Bam",
             "ln": "Aquino",
             "dob": "19770507",
-            "job": "Former Senator",
+            "job": "Entrepreneur",
             "term": 2,
             "tags": [
                 "PF",
                 "FS",
                 "T2"
             ],
-            "img": "abalos.jpg",
             "party": "Katipunan ng Nagkakaisang Pilipino",
             "exp": [{
                 "value": "Senator (2013-2019)",
@@ -169,55 +175,66 @@
                     }
                 ]
             }, {
-                "value": "Chairman - Metropolitan Manila Development Authority (2021-2022)"
+                "value": "President - MicroVentures Foundation (2012-2013)"
             }, {
-                "value": "Mayor - Mandaluyong City, Metro Manila (2007-2016)",
+                "value": "President - MicroVentures Incorporated (2007-2012)",
                 "sub": [
-                    "Best Mayor (2015)"
+                    "Ten Outstanding Young Persons of the World (2012)",
+                    "Ten Outstanding Young Men of the Philippines (2010)"
                 ]
             }, {
-                "value": "Congressman - Mandaluyong Lone District (2004-2007)",
-                "sub": [
-                    "Principal author:<ul><li><a href=\"https://www.officialgazette.gov.ph/2007/03/18/republic-act-no-9397/\" target=\"_blank\">Republic Act 9397 - \"No-Bidding\" sale of government-owned properties to its occupants for socialized housing</a></li></ul>",
-                    "Co-authored 54 House bills"
-                ]
+                "value": "Chairman - National Youth Commission (2003-2006)"
             }, {
-                "value": "Mayor - Mandaluyong City, Metro Manila (1998-2004)",
-                "sub": [
-                    "Transformed Mandaluyong City into \"Tiger City of the Philippines\" during first term as Mayor.",
-                    "Most Outstanding City Mayor, Local Government Leadership Award (2003)",
-                    "Outstanding Mayor of the Philippines (2000)"
-                ]
-            }, {
-                "value": "City Councilor - Mandaluyong City,Metro Manila (1995-1998)"
+                "value": "Commissioner - National Youth Commission (2001-2003)"
             }],
-            "adv": [],
+            "adv": [
+                "Social entrepreneurship",
+                "Free and affordable college education",
+                "Renewable energy"
+            ],
             "pf": [{
-                "name": "Benjamin Abalos Sr.",
-                "rel": "Father",
-                "pos": "Mayor, Mandaluyong City (Incumbent)"
+                "name": "Benigno \"Ninoy\" Aquino Jr.",
+                "rel": "Uncle",
+                "pos": "Senator (1967-1972)"
             }, {
-                "name": "Carmelita Abalos",
-                "rel": "Wife",
-                "pos": "Vice Mayor, Mandaluyong City (Incumbent)"
+                "name": "Corazon Aquino",
+                "rel": "Aunt",
+                "pos": "President (1986-1992)"
             }, {
-                "name": "Charisse Marie Abalos",
-                "rel": "Daughter",
-                "pos": "Councilor, 1st District, Mandaluyong City (2013-2022)"
+                "name": "Benigno Aquino III",
+                "rel": "Cousin",
+                "pos": "President (2010-2016)"
             }, {
-                "name": "Benjamin Abalos III",
-                "rel": "Son",
-                "pos": "Councilor, 2nd District, Mandaluyong City (Incumbent)"
+                "name": "Benigno Aquino Sr.",
+                "rel": "Grandfather",
+                "pos": "Congressman (1943-1944)"
+            }, {
+                "name": "Agapito \"Butz\" Aquino",
+                "rel": "Uncle",
+                "pos": "Senator (1987-1995)"
+            }, {
+                "name": "Tessie Aquino-Oreta",
+                "rel": "Aunt",
+                "pos": "Senator (1987-1998)"
             }],
             "nw": 0,
             "ed": [
-                "Ateneo de Manila University - Bachelor of Laws",
+                "Ateneo de Manila University - Bachelor of Science (Management Engineering)",
                 "De La Salle University - Bachelor of Arts in History and Political Science"
             ],
             "news": [
-                "<a href=\"https://www.gmanetwork.com/news/topstories/nation/919508/abalos-explains-viral-photo-with-alice-guo/story/\" target=\"_blank\">Abalos explains viral photo with Alice Guo</a>",
-                "<a href=\"https://www.gmanetwork.com/news/topstories/nation/919806/abalos-complaint-duterte-quiboloy/story/#goog_rewarded\" target=\"_blank\">Abalos says ex-Pres. Duterte has filed complaint against him, Marbil amid Quiboloy hunt</a>",
-                "<a href=\"https://www.manilatimes.net/2023/01/30/news/regions/abalos-govt-in-big-fight-vs-drug-rings/1876455\" target=\"_blank\">Abalos: Govt in big fight vs drug rings</a>"
+                {
+                    "link": "https://news.abs-cbn.com/news/2024/11/9/kiko-pangilinan-bam-aquino-launch-kibam-grassroots-campaign-1621",
+                    "text": "Senatorial bets Kiko Pangilinan, Bam Aquino launch 'KiBam' grassroots campaign"
+                },
+                {
+                    "link": "https://asiasociety.org/philippines/sen-bam-aquino-calls-citizens-defend-truth",
+                    "text": "Sen. Bam Aquino Calls for Citizens to Defend Truth"
+                },
+                {
+                    "link": "https://power4all.org/articles/news/senator-bam-aquino-advocates-renewable-energy",
+                    "text": "Senator Bam Aquino Advocates Renewable Energy"
+                }
             ]
         },
         {

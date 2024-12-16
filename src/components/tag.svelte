@@ -25,8 +25,8 @@
     const getClass = () => {
         let classList = [ 'tag' ];
 
-        console.log(`getClass tag=${tag.id}`, tag);
-        console.log(`getClass tag=${tag.id}`, `enable=${enable}; alert=${tag.alert}`);
+        // console.log(`getClass tag=${tag.id}`, tag);
+        // console.log(`getClass tag=${tag.id}`, `enable=${enable}; alert=${tag.alert}`);
         if (enable.toString() === "true") { classList.push('enable'); }
         else {
             if (tag.alert === true) { classList.push('alert'); }
@@ -60,7 +60,9 @@
         letter-spacing: 0.5px;
         position: relative;
 	}
-	.tag.alert {
+	.tag.alert,
+    .tag.selected,
+    .tag.selected:hover {
 		background-color: var(--color-red-flag);
 		color: var(--color-white);
 	}
@@ -72,8 +74,9 @@
     }
     .tag.selected,
     .tag.selected:hover {
-        background-color: var(--color-red-flag-lite);
-        color: var(--color-white);
         box-shadow: var(--box-shadow);
+    }
+    .tag.selected:hover {
+        background-color: var(--color-red-flag-lite);
     }
 </style>

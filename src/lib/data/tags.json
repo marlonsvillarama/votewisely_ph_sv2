@@ -1,7 +1,7 @@
 [
     {
         "id": "PF",
-        "text": "Political Family",
+        "text": "Political family",
         "alert": true
     },
     {
@@ -32,39 +32,38 @@
     },
     {
         "id": "O60",
-        "text": "Over 60 Years Old",
+        "text": "Over 60 years old",
         "alert": true
     },
     {
         "id": "O70",
-        "text": "Over 70 Years Old",
+        "text": "Over 70 years old",
         "alert": true
     },
     {
         "id": "FP",
-        "text": "Former President",
+        "text": "Former president",
         "alert": true
     },
     {
         "id": "FVP",
-        "text": "Former Vice President",
+        "text": "Former vice president",
         "alert": true
     },
     {
         "id": "FCM",
-        "text": "Former Cabinet Member"
+        "text": "Former cabinet member"
     },
     {
         "id": "FS",
-        "text": "Former Senator",
-        "alert": true
+        "text": "Former senator"
     },
     {
         "id": "FR",
-        "text": "Former Representative"
+        "text": "Former representative"
     },
     {
         "id": "FM",
-        "text": "Former Mayor"
+        "text": "Former mayor"
     }
 ]

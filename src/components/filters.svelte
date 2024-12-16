@@ -53,14 +53,14 @@
         padding: 0.5rem 1rem;
         border: 0;
         border-radius: 0.5rem;
-        background-color: var(--color-red-flag-lite);
+        background-color: var(--color-red-flag);
         color: white;
         font-size: var(--fs-xs);
         cursor: pointer;
         transition: all 50ms ease-in-out;
     }
     .header button:hover {
-        background-color: var(--color-red-flag);
+        background-color: var(--color-red-flag-lite);
     }
     section {
         /* border: 1px solid green; */

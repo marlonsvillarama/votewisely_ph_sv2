@@ -36,7 +36,7 @@
 
     let dispatch = createEventDispatcher();
     const viewProfile = (e) => {
-        dispatch('click', { slug: data.slug });
+        dispatch('click', { slug: candidate.slug });
     };
 </script>
 
@@ -134,7 +134,7 @@
         /* font-size: var(--fs-sm); */
         letter-spacing: 0.25px;
         color: var(--color-slate-900);
-		background-color: var(--color-white);
+		/* background-color: var(--color-white); */
 		background-color: rgba(0, 0, 0, 0.1);
     }
 	.tags {

@@ -1,7 +1,9 @@
 import candidates from '$lib/data/candidates.json';
+import tags from '$lib/data/tags.json';
 
 export const load = ({ params }) => {
-    let slug = params.slug;
-    console.log('candidate slug', slug);
-    return candidates;
+    return {
+        candidates,
+        tags
+    };
 };

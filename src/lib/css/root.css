@@ -1,5 +1,7 @@
 :root {
     --box-shadow: rgba(0, 0, 0, 0.8) 0px 3px 8px;
+    --button-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    --button-shadow-hover: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     --card-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     --card-shadow-full: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
@@ -10,6 +12,7 @@
     --br-2xl: 1536px;
 
     --color-blue-flag: #0032A0;
+    --color-blue-flag-lite: rgba(0, 50, 160, 0.8);
     --color-default: rgb(17, 24, 39);
     --color-red-flag-lite: rgba(191, 13, 62, 0.8);
     --color-red-flag: rgba(191, 13, 62);
