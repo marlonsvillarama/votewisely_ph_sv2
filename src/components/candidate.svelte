@@ -8,7 +8,18 @@
 
     const calculateAge = (options) => {
         let { dob } = options;
-        let age = 0;
+        let age = '-';
+        if (dob?.length < 8) { return '-'; }
+
+        let today = new Date();
+        let birthDate = new Date(`${dob.slice(0, 4)}/${dob.slice(4, 2)}/${dob.slice(6, 2)}`);
+        age = today.getFullYear() - birthDate.getFullYear();
+        
+        let m = today.getMonth() - birthDate.getMonth();
+        if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+            age--;
+        }
+
         return age;
     };
 
@@ -28,6 +39,19 @@
         return result;
     };
     let id = generateId();
+
+    const getRunningFor = (term) => {
+        let value = '-';
+        switch(term.toString()) {
+            case '1': { value = 'first'; break; }
+            case '2': { value = 'second'; break; }
+            case '3': { value = 'third'; break; }
+            case '4': { value = 'fourth'; break; }
+            case '5': { value = 'fifth'; break; }
+            case '6': { value = 'sixth'; break; }
+        }
+        return `Running for ${value} term`;
+    };
 
     const getTag = (id) => {
         let tag = tags.find(t => t.id === id);
@@ -49,9 +73,10 @@
             <div class="name">
                 <span class="ln">{candidate.ln}</span>
                 <span class="fn">{candidate.short_fn}</span>
-                <span class="age">{#if showAge}{age} years old{:else}test{/if}</span>
             </div>
+            <span class="age">{#if showAge}{age} years old{:else}-{/if}</span>
             <span class="job">{candidate.job}</span>
+            <span class="job">{getRunningFor(candidate.term)}</span>
         </aside>
     </div>
     <div class="contents">
@@ -99,11 +124,14 @@
 	}
     .header aside {
         /* border: 1px solid green; */
-        padding: 0.5rem 0;
+        padding: 0.25rem 0;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         /* gap: 0.75rem; */
+    }
+    aside span {
+        line-height: 1.2rem;
     }
     .name {
         display: flex;
@@ -120,9 +148,12 @@
         letter-spacing: 1.25px;
         margin-bottom: 0.25rem;
 	}
-    /* .name .fn {
-        font-family: var(--font-serif);
-    } */
+    .name .fn {
+        /* font-family: var(--font-serif); */
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+    }
     /* .contents { */
         /* padding: 0.3rem 0.75rem 0.5rem; */
     /* } */

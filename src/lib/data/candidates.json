@@ -13,10 +13,10 @@
             "term": 1,
             "tags": [
                 "PF",
-                "T1",
                 "FM",
                 "FR",
-                "FCM"
+                "FCM",
+                "T1"
             ],
             "web": "https://benjaminabalosjr.com/",
             "email": "",
@@ -94,7 +94,7 @@
             "short_fn": "Ronaldo",
             "ln": "Adonis",
             "dob": "",
-            "job": "Activist",
+            "job": "-",
             "term": 1,
             "tags": [
                 "T1"
@@ -114,7 +114,7 @@
             "short_fn": "Wilson",
             "ln": "Amad",
             "dob": "",
-            "job": "Lawyer/Activist",
+            "job": "Lawyer",
             "term": 1,
             "tags": [
                 "T1",
@@ -135,7 +135,7 @@
             "short_fn": "Jocelyn",
             "ln": "Andamo",
             "dob": "",
-            "job": "Registered Nurse",
+            "job": "Registered nurse",
             "term": 1,
             "tags": [
                 "T1"
@@ -255,12 +255,12 @@
             "short_fn": "Ronnel",
             "ln": "Arambulo",
             "dob": "",
-            "job": "Fisherfolk/Activist",
+            "job": "Fisherfolk",
             "term": 1,
             "tags": [
+                "AC",
                 "T1"
             ],
-            "img": "arambulo.jpg",
             "party": "Makabayan",
             "exp": [],
             "adv": [],
@@ -281,7 +281,6 @@
             "tags": [
                 "T1"
             ],
-            "img": "arellano.jpg",
             "party": "Kamalayang Kayumanggi",
             "exp": [],
             "adv": [],
@@ -297,12 +296,12 @@
             "short_fn": "Roberto",
             "ln": "Ballon",
             "dob": "",
-            "job": "Fisherfolk/Activist",
+            "job": "Fisherfolk",
             "term": 1,
             "tags": [
+                "AC",
                 "T1"
             ],
-            "img": "ballon.jpg",
             "party": "Independent",
             "exp": [],
             "adv": [],
@@ -317,14 +316,13 @@
             "fn": "Mar-Len Abigail Sombillo",
             "short_fn": "Abby",
             "ln": "Binay",
-            "dob": "",
-            "job": "Mayor",
+            "dob": "19751212",
+            "job": "Mayor (Makati)",
             "term": 1,
             "tags": [
                 "PF",
                 "T1"
             ],
-            "img": "binay.jpg",
             "party": "Nationalist People's Coalition",
             "exp": [],
             "adv": [],
@@ -339,13 +337,12 @@
             "fn": "James Patrick Romero",
             "short_fn": "Jimmy",
             "ln": "Bondoc",
-            "dob": "",
-            "job": "Attorney",
+            "dob": "19750531",
+            "job": "Lawyer / Songwriter",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "bondoc.jpg",
             "party": "PDP-Laban",
             "exp": [],
             "adv": [],
@@ -360,13 +357,13 @@
             "fn": "Bonifacio Laqui",
             "short_fn": "Bonifacio",
             "ln": "Bosita",
-            "dob": "",
-            "job": "Former Colonel",
+            "dob": "19661130",
+            "job": "Retired Army Colonel",
             "term": 1,
             "tags": [
+                "MLT",
                 "T1"
             ],
-            "img": "bosita.jpg",
             "party": "Independent",
             "exp": [],
             "adv": [],
@@ -387,7 +384,6 @@
             "tags": [
                 "T1"
             ],
-            "img": "brosas.jpg",
             "party": "Makabayan",
             "exp": [],
             "adv": [],
@@ -402,12 +398,12 @@
             "fn": "Roy Jerusalem",
             "short_fn": "Roy",
             "ln": "Cabonegro",
-            "dob": "",
+            "dob": "19740319",
+            "job": "Environmentalist",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "cabonegro.jpg",
             "party": "Democratic Party of the Philippines",
             "exp": [],
             "adv": [],
@@ -423,11 +419,11 @@
             "short_fn": "Allen",
             "ln": "Capuyan",
             "dob": "",
+            "job": "Former Colonel",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "capuyan.jpg",
             "party": "Partido Pilipino sa Pagbabago",
             "exp": [],
             "adv": [],
@@ -442,12 +438,12 @@
             "fn": "Teodoro Acevedo",
             "short_fn": "Teddy",
             "ln": "Casiño",
-            "dob": "",
+            "dob": "19681115",
+            "job": "Congressman",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "casino.jpg",
             "party": "Makabayan",
             "exp": [],
             "adv": [],
@@ -462,12 +458,12 @@
             "fn": "Francisca Lustina",
             "short_fn": "Francisca",
             "ln": "Castro",
-            "dob": "",
+            "dob": "19660524",
+            "job": "Congresswoman",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "castro.jpg",
             "party": "Makabayan",
             "exp": [],
             "adv": [],
@@ -482,12 +478,14 @@
             "fn": "Pilar Juliana Schramm",
             "short_fn": "Pia",
             "ln": "Cayetano",
-            "dob": "",
-            "term": 1,
+            "dob": "19660522",
+            "job": "Senator",
+            "term": 2,
             "tags": [
-                "T1"
+                "FR",
+                "PF",
+                "T2"
             ],
-            "img": "cayetano.jpg",
             "party": "Nacionalista Party",
             "exp": [],
             "adv": [],
@@ -503,11 +501,11 @@
             "short_fn": "Angelo",
             "ln": "De Alban",
             "dob": "",
+            "job": "-",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "dealban.jpg",
             "party": "Independent",
             "exp": [],
             "adv": [],
@@ -523,11 +521,11 @@
             "short_fn": "David",
             "ln": "D'Angelo",
             "dob": "",
+            "job": "-",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "dangelo.jpg",
             "party": "Bunyog Pagkakaisa Party",
             "exp": [],
             "adv": [],
@@ -542,12 +540,13 @@
             "fn": "Leodegario Quitain",
             "short_fn": "Leody",
             "ln": "De Guzman",
-            "dob": "",
+            "dob": "19590725",
+            "job": "Labor Leader",
             "term": 1,
             "tags": [
+                "AC",
                 "T1"
             ],
-            "img": "deguzman.jpg",
             "party": "Partido Lakas ng Masa",
             "exp": [],
             "adv": [],
@@ -562,12 +561,12 @@
             "fn": "Ronald Marapon",
             "short_fn": "Ronald \"Bato\"",
             "ln": "Dela Rosa",
-            "dob": "",
-            "term": 1,
+            "dob": "19620121",
+            "job": "Senator",
+            "term": 2,
             "tags": [
                 "T1"
             ],
-            "img": "delarosa.jpg",
             "party": "PDP-Laban",
             "exp": [],
             "adv": [],
@@ -583,11 +582,11 @@
             "short_fn": "Eufemia",
             "ln": "Doringo",
             "dob": "",
+            "job": "-",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "doringo.jpg",
             "party": "Makabayan",
             "exp": [],
             "adv": [],
@@ -603,17 +602,22 @@
             "short_fn": "Arnel",
             "ln": "Escobal",
             "dob": "",
+            "job": "Former Police General",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "escobal.jpg",
             "party": "Partido Maharlika",
             "exp": [],
             "adv": [],
             "pf": [],
             "nw": 0,
-            "ed": [],
+            "ed": [
+                "The University of Salford - Master of Laws in International Commercial Law, International Law and Commerce",
+                "University of Santo Tomas (Legazpi) - Master of Business Administration",
+                "University of Santo Tomas (Legazpi) - Juris Doctor",
+                "Philippine Military Academy - Class of 1987"
+            ],
             "news": []
         },
         {
@@ -622,12 +626,12 @@
             "fn": "Renecio Jr. Santos",
             "short_fn": "Luke",
             "ln": "Espiritu",
-            "dob": "",
+            "dob": "19741018",
+            "job": "Labor Leader",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "espiritu.jpg",
             "party": "Partido Lakas ng Masa",
             "exp": [],
             "adv": [],
@@ -643,11 +647,11 @@
             "short_fn": "Mody",
             "ln": "Floranda",
             "dob": "",
+            "job": "Transport Labor Leader",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "floranda.jpg",
             "party": "Makabayan",
             "exp": [],
             "adv": [],
@@ -663,11 +667,11 @@
             "short_fn": "Marc",
             "ln": "Gamboa",
             "dob": "",
+            "job": "Political Vlogger",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "gamboa.jpg",
             "party": "Independent",
             "exp": [],
             "adv": [],
@@ -682,12 +686,12 @@
             "fn": "Christopher Lawrence Tesoro",
             "short_fn": "Bong",
             "ln": "Go",
-            "dob": "",
-            "term": 1,
+            "dob": "19740614",
+            "job": "Senator",
+            "term": 2,
             "tags": [
-                "T1"
+                "T2"
             ],
-            "img": "go.jpg",
             "party": "PDP-Laban",
             "exp": [],
             "adv": [],
@@ -702,12 +706,13 @@
             "fn": "Norberto Borja",
             "short_fn": "Norberto",
             "ln": "Gonzales",
-            "dob": "",
+            "dob": "19470417",
+            "job": "Former Defense Secretary",
             "term": 1,
             "tags": [
+                "FCM",
                 "T1"
             ],
-            "img": "gonzales.jpg",
             "party": "Partido Demokratiko Sosyalista ng Pilipinas",
             "exp": [],
             "adv": [],
@@ -723,11 +728,11 @@
             "short_fn": "Jayvee",
             "ln": "Hinlo",
             "dob": "",
+            "job": "Lawyer",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "hinlo.jpg",
             "party": "PDP-Laban",
             "exp": [],
             "adv": [],
@@ -742,18 +747,21 @@
             "fn": "Gregorio Ballesteros",
             "short_fn": "Gregorio",
             "ln": "Honasan",
-            "dob": "",
-            "term": 1,
+            "dob": "19480314",
+            "job": "Former Senator",
+            "term": 3,
             "tags": [
-                "T1"
+                "FCM",
+                "T3"
             ],
-            "img": "honasan.jpg",
             "party": "Reform PH-People's Party",
             "exp": [],
             "adv": [],
             "pf": [],
             "nw": 0,
-            "ed": [],
+            "ed": [
+                "Philippine Military Academy - Class of 1971 (Class Baron)"
+            ],
             "news": []
         },
         {
@@ -763,11 +771,11 @@
             "short_fn": "Relly Jr.",
             "ln": "Jose",
             "dob": "",
+            "job": "Retired Captain",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "jose.jpg",
             "party": "Kilusang Bagong Lipunan",
             "exp": [],
             "adv": [],
@@ -782,18 +790,23 @@
             "fn": "Panfilo Morena",
             "short_fn": "Panfilo",
             "ln": "Lacson",
-            "dob": "",
-            "term": 1,
+            "dob": "19480601",
+            "job": "Former Senator",
+            "term": 4,
             "tags": [
-                "T1"
+                "FS",
+                "T4"
             ],
-            "img": "lacson.jpg",
             "party": "Independent",
             "exp": [],
             "adv": [],
             "pf": [],
             "nw": 0,
-            "ed": [],
+            "ed": [
+                "Pamantasan ng Lungsod ng Maynila - Doctor of Laws, Honoris Causa",
+                "Pamantasan ng Lungsod ng Maynila - Master in Government Management",
+                "Philippine Military Academy - Class of 1971"
+            ],
             "news": []
         },
         {
@@ -803,11 +816,11 @@
             "short_fn": "Raul",
             "ln": "Lambino",
             "dob": "",
+            "job": "",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "lambino.jpg",
             "party": "PDP-Laban",
             "exp": [],
             "adv": [],
@@ -823,11 +836,11 @@
             "short_fn": "Lito",
             "ln": "Lapid",
             "dob": "",
+            "job": "Former Senator",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "lapid.jpg",
             "party": "Nationalist People's Coalition",
             "exp": [],
             "adv": [],
@@ -847,7 +860,6 @@
             "tags": [
                 "T1"
             ],
-            "img": "lee.jpg",
             "party": "Aksyon Demokratiko",
             "exp": [],
             "adv": [],
@@ -867,7 +879,6 @@
             "tags": [
                 "T1"
             ],
-            "img": "lidasan.jpg",
             "party": "Makabayan",
             "exp": [],
             "adv": [],
@@ -883,11 +894,11 @@
             "short_fn": "Rodante",
             "ln": "Marcoleta",
             "dob": "",
+            "job": "Congressman",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "marcoleta.jpg",
             "party": "Independent",
             "exp": [],
             "adv": [],
@@ -903,11 +914,12 @@
             "short_fn": "Imee",
             "ln": "Marcos",
             "dob": "",
+            "job": "Senator",
             "term": 1,
             "tags": [
+                "PF",
                 "T1"
             ],
-            "img": "marcos.jpg",
             "party": "Nacionalista Party",
             "exp": [],
             "adv": [],
@@ -927,7 +939,6 @@
             "tags": [
                 "T1"
             ],
-            "img": "marquez.jpg",
             "party": "Independent",
             "exp": [],
             "adv": [],
@@ -943,11 +954,11 @@
             "short_fn": "Eric",
             "ln": "Martinez",
             "dob": "",
+            "job": "Congressman",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "martinez.jpg",
             "party": "Independent",
             "exp": [],
             "adv": [],
@@ -963,11 +974,11 @@
             "short_fn": "Richard",
             "ln": "Mata",
             "dob": "",
+            "job": "Medical doctor",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "mata.jpg",
             "party": "Independent",
             "exp": [],
             "adv": [],
@@ -983,11 +994,11 @@
             "short_fn": "Sonny",
             "ln": "Matula",
             "dob": "",
+            "job": "Lawyer / Labor leader",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "matula.jpg",
             "party": "Workers and Peasants Party",
             "exp": [],
             "adv": [],
@@ -1003,11 +1014,11 @@
             "short_fn": "Liza",
             "ln": "Maza",
             "dob": "",
+            "job": "Congresswoman",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "maza.jpg",
             "party": "Makabayan",
             "exp": [],
             "adv": [],
@@ -1023,11 +1034,11 @@
             "short_fn": "Heidi",
             "ln": "Mendoza",
             "dob": "",
+            "job": "Former Commissioner",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "mendoza.jpg",
             "party": "Independent",
             "exp": [],
             "adv": [],
@@ -1043,11 +1054,11 @@
             "short_fn": "Jose Jr.",
             "ln": "Montemayor",
             "dob": "",
+            "job": "Lawyer",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "montemayor.jpg",
             "party": "Partido Pederal ng Maharlika",
             "exp": [],
             "adv": [],
@@ -1063,11 +1074,11 @@
             "short_fn": "Jessie",
             "ln": "Olivar",
             "dob": "",
+            "job": "Activist",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "olivar.jpg",
             "party": "Independent",
             "exp": [],
             "adv": [],
@@ -1083,11 +1094,11 @@
             "short_fn": "Willie",
             "ln": "Ong",
             "dob": "",
+            "job": "Medical doctor",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "ong.jpg",
             "party": "Aksyon Demokratiko",
             "exp": [],
             "adv": [],
@@ -1103,11 +1114,11 @@
             "short_fn": "Manny",
             "ln": "Pacquiao",
             "dob": "",
+            "job": "Former Senator",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "pacquiao.jpg",
             "party": "Partido Federal ng Pilipinas",
             "exp": [],
             "adv": [],
@@ -1123,11 +1134,11 @@
             "short_fn": "Kiko",
             "ln": "Pangilinan",
             "dob": "",
+            "job": "Former Senator",
             "term": 3,
             "tags": [
                 "T1"
             ],
-            "img": "pangilinan.jpg",
             "party": "Liberal Party of the Philippines",
             "exp": [],
             "adv": [],
@@ -1143,11 +1154,11 @@
             "short_fn": "Ariel",
             "ln": "Querubin",
             "dob": "",
+            "job": "Retired Army Colonel",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "querubin.jpg",
             "party": "Nacionalista Party",
             "exp": [],
             "adv": [],
@@ -1163,11 +1174,12 @@
             "short_fn": "Apollo",
             "ln": "Quiboloy",
             "dob": "",
+            "job": "Pastor",
             "term": 1,
             "tags": [
+                "CR",
                 "T1"
             ],
-            "img": "quiboloy.jpg",
             "party": "Workers and Peasants Party",
             "exp": [],
             "adv": [],
@@ -1183,11 +1195,11 @@
             "short_fn": "Danilo",
             "ln": "Ramos",
             "dob": "",
+            "job": "Farmer / Activist",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "ramos.jpg",
             "party": "Makabayan",
             "exp": [],
             "adv": [],
@@ -1202,12 +1214,12 @@
             "fn": "Ramon Jr. Bautista",
             "short_fn": "Bong",
             "ln": "Revilla",
-            "dob": "",
-            "term": 1,
+            "dob": "19660925",
+            "job": "Senator",
+            "term": 2,
             "tags": [
-                "T1"
+                "T2"
             ],
-            "img": "revilla.jpg",
             "party": "Lakas-CMD",
             "exp": [],
             "adv": [],
@@ -1222,12 +1234,12 @@
             "fn": "Wilfredo Buendia",
             "short_fn": "Willie",
             "ln": "Revillame",
-            "dob": "",
+            "dob": "19610127",
+            "job": "Television host",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "revillame.jpg",
             "party": "Independent",
             "exp": [],
             "adv": [],
@@ -1240,14 +1252,14 @@
             "id": "55",
             "slug": "rodriguez",
             "fn": "Victor Dayrit",
-            "short_fn": "Victor",
+            "short_fn": "Vic",
             "ln": "Rodriguez",
-            "dob": "",
+            "dob": "19731223",
+            "job": "Lawyer",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "rodriguez.jpg",
             "party": "Independent",
             "exp": [],
             "adv": [],
@@ -1262,12 +1274,12 @@
             "fn": "Nur-Ana Indanan",
             "short_fn": "Nur-Ana",
             "ln": "Sahidulla",
-            "dob": "",
+            "dob": "19590921",
+            "job": "Former Congresswoman",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "sahidulla.jpg",
             "party": "Independent",
             "exp": [],
             "adv": [],
@@ -1282,12 +1294,13 @@
             "fn": "Phillip Reyes",
             "short_fn": "Phillip",
             "ln": "Salvador",
-            "dob": "",
+            "dob": "19530821",
+            "job": "Actor",
             "term": 1,
             "tags": [
+                "CR",
                 "T1"
             ],
-            "img": "salvador.jpg",
             "party": "PDP-Laban",
             "exp": [],
             "adv": [],
@@ -1300,14 +1313,14 @@
             "id": "52",
             "slug": "singson",
             "fn": "Luis Crisologo",
-            "short_fn": "Luis",
+            "short_fn": "Chavit",
             "ln": "Singson",
-            "dob": "",
+            "dob": "19410621",
+            "job": "Former Mayor",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "singson.jpg",
             "party": "Independent",
             "exp": [],
             "adv": [],
@@ -1322,12 +1335,12 @@
             "fn": "Vicente III Castelo",
             "short_fn": "Tito",
             "ln": "Sotto",
-            "dob": "",
+            "dob": "19480824",
+            "job": "Former Senator",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "sotto.jpg",
             "party": "Nationalist People's Coalition",
             "exp": [],
             "adv": [],
@@ -1343,11 +1356,11 @@
             "short_fn": "Michael",
             "ln": "Tapado",
             "dob": "",
+            "job": "Evangelist",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "tapado.jpg",
             "party": "Partido Maharlika",
             "exp": [],
             "adv": [],
@@ -1362,12 +1375,12 @@
             "fn": "Francis Ng",
             "short_fn": "Francis",
             "ln": "Tolentino",
-            "dob": "",
+            "dob": "19600103",
+            "job": "Senator",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "tolentino.jpg",
             "party": "Partido Federal ng Pilipinas",
             "exp": [],
             "adv": [],
@@ -1382,12 +1395,12 @@
             "fn": "Bienvenido Teshiba",
             "short_fn": "Ben",
             "ln": "Tulfo",
-            "dob": "",
+            "dob": "19550315",
+            "job": "Radio personality",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "tulfo-ben.jpg",
             "party": "Independent",
             "exp": [],
             "adv": [],
@@ -1402,12 +1415,12 @@
             "fn": "Erwin Teshiba",
             "short_fn": "Erwin",
             "ln": "Tulfo",
-            "dob": "",
-            "term": 1,
+            "dob": "19640810",
+            "job": "Senator",
+            "term": 2,
             "tags": [
-                "T1"
+                "T2"
             ],
-            "img": "tulfo-erwin.jpg",
             "party": "Lakas-CMD",
             "exp": [],
             "adv": [],
@@ -1423,11 +1436,11 @@
             "short_fn": "Mario Jr.",
             "ln": "Valbuena",
             "dob": "",
+            "job": "Activist",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "valbuena.jpg",
             "party": "Independent",
             "exp": [],
             "adv": [],
@@ -1438,16 +1451,16 @@
         },
         {
             "id": "65",
-            "slug": "Verceles",
+            "slug": "verceles",
             "fn": "Leandro Buenconsejo",
             "short_fn": "Leandro",
             "ln": "Verceles",
-            "dob": "",
+            "dob": "19570111",
+            "job": "Former Congressman",
             "term": 1,
             "tags": [
                 "T1"
             ],
-            "img": "verceles.jpg",
             "party": "Independent",
             "exp": [],
             "adv": [],
@@ -1462,12 +1475,13 @@
             "fn": "Camille Aguilar",
             "short_fn": "Camille",
             "ln": "Villar",
-            "dob": "",
+            "dob": "19850125",
+            "job": "Congresswoman",
             "term": 1,
             "tags": [
-                "T1"
+                "PF",
+                "BIL"
             ],
-            "img": "villar.jpg",
             "party": "Nacionalista Party",
             "exp": [],
             "adv": [],

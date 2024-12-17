@@ -5,6 +5,19 @@
         "alert": true
     },
     {
+        "id": "AC",
+        "text": "Activist"
+    },
+    {
+        "id": "CR",
+        "text": "Criminal record",
+        "alert": true
+    },
+    {
+        "id": "MLT",
+        "text": "Military"
+    },
+    {
         "id": "T1",
         "text": "For first term"
     },
@@ -15,6 +28,18 @@
     {
         "id": "T3",
         "text": "For third term"
+    },
+    {
+        "id": "T4",
+        "text": "For fourth term"
+    },
+    {
+        "id": "T5",
+        "text": "For fifth term"
+    },
+    {
+        "id": "T6",
+        "text": "For sixth term"
     },
     {
         "id": "IN",

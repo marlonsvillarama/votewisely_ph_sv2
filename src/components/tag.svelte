@@ -57,7 +57,7 @@
 		background-color: rgba(0, 0, 0, 0.1);
 		color: var(--color-default);
 		font-size: var(--fs-xs);
-        letter-spacing: 0.5px;
+        letter-spacing: 0.25px;
         position: relative;
 	}
 	.tag.alert,
