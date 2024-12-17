@@ -88,6 +88,7 @@
         display: grid;
         grid-template-columns: 2fr 3fr;
         gap: 1rem;
+        color: var(--color-default);
     }
 	img {
 		width: 100%;

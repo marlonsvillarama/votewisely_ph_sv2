@@ -105,7 +105,7 @@
         /* flex: 2 1 auto; */
 		/* flex-direction: column; */
         flex-wrap: wrap;
-		color: var(--color-default);
+		color: var(--color-white);
 		gap: 1.5rem;
         justify-content: flex-start;
 	}
