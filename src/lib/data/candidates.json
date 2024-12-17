@@ -99,7 +99,7 @@
             "tags": [
                 "T1"
             ],
-            "party": "Makabayang Koalisyon ng Mamamayan",
+            "party": "Makabayan",
             "exp": [],
             "adv": [],
             "pf": [],
@@ -140,13 +140,24 @@
             "tags": [
                 "T1"
             ],
-            "party": "Makabayang Koalisyon ng Mamamayan",
+            "party": "Makabayan",
             "exp": [],
             "adv": [],
             "pf": [],
             "nw": 0,
-            "ed": [],
-            "news": []
+            "ed": [
+                "Far Eastern University - Bachelor of Nursing"
+            ],
+            "news": [
+                {
+                    "link": "https://phkule.org/article/1307/nurse-jocelyn-andamo-the-senate-aspirant-who-hopes-to-cure-the-nations-health-care-ills/",
+                    "text": "Nurse Jocelyn Andamo, the Senate Aspirant Who Hopes to Cure the Nation's Health Care Ills"
+                },
+                {
+                    "link": "https://www.facebook.com/watch/?v=496708685670710",
+                    "text": "Full Interview: Jocelyn Andamo"
+                }
+            ]
         },
         {
             "id": "5",
@@ -250,7 +261,7 @@
                 "T1"
             ],
             "img": "arambulo.jpg",
-            "party": "Makabayang Koalisyon ng Mamamayan",
+            "party": "Makabayan",
             "exp": [],
             "adv": [],
             "pf": [],
@@ -377,7 +388,7 @@
                 "T1"
             ],
             "img": "brosas.jpg",
-            "party": "Makabayang Koalisyon ng Mamamayan",
+            "party": "Makabayan",
             "exp": [],
             "adv": [],
             "pf": [],
@@ -437,7 +448,7 @@
                 "T1"
             ],
             "img": "casino.jpg",
-            "party": "Makabayang Koalisyon ng Mamamayan",
+            "party": "Makabayan",
             "exp": [],
             "adv": [],
             "pf": [],
@@ -457,7 +468,7 @@
                 "T1"
             ],
             "img": "castro.jpg",
-            "party": "Makabayang Koalisyon ng Mamamayan",
+            "party": "Makabayan",
             "exp": [],
             "adv": [],
             "pf": [],
@@ -529,7 +540,7 @@
             "id": "20",
             "slug": "deguzman",
             "fn": "Leodegario Quitain",
-            "short_fn": "Leo",
+            "short_fn": "Leody",
             "ln": "De Guzman",
             "dob": "",
             "term": 1,
@@ -549,7 +560,7 @@
             "id": "21",
             "slug": "delarosa",
             "fn": "Ronald Marapon",
-            "short_fn": "Ronald",
+            "short_fn": "Ronald \"Bato\"",
             "ln": "Dela Rosa",
             "dob": "",
             "term": 1,
@@ -577,7 +588,7 @@
                 "T1"
             ],
             "img": "doringo.jpg",
-            "party": "Makabayang Koalisyon ng Mamamayan",
+            "party": "Makabayan",
             "exp": [],
             "adv": [],
             "pf": [],
@@ -609,7 +620,7 @@
             "id": "24",
             "slug": "espiritu",
             "fn": "Renecio Jr. Santos",
-            "short_fn": "Renecio",
+            "short_fn": "Luke",
             "ln": "Espiritu",
             "dob": "",
             "term": 1,
@@ -629,7 +640,7 @@
             "id": "25",
             "slug": "floranda",
             "fn": "Modesto Toque",
-            "short_fn": "Modesto",
+            "short_fn": "Mody",
             "ln": "Floranda",
             "dob": "",
             "term": 1,
@@ -637,7 +648,7 @@
                 "T1"
             ],
             "img": "floranda.jpg",
-            "party": "Makabayang Koalisyon ng Mamamayan",
+            "party": "Makabayan",
             "exp": [],
             "adv": [],
             "pf": [],
@@ -669,7 +680,7 @@
             "id": "27",
             "slug": "go",
             "fn": "Christopher Lawrence Tesoro",
-            "short_fn": "Christopher",
+            "short_fn": "Bong",
             "ln": "Go",
             "dob": "",
             "term": 1,
@@ -709,7 +720,7 @@
             "id": "29",
             "slug": "hinlo",
             "fn": "Jesus Jr. Villanueva",
-            "short_fn": "Jesus Jr.",
+            "short_fn": "Jayvee",
             "ln": "Hinlo",
             "dob": "",
             "term": 1,
@@ -857,7 +868,7 @@
                 "T1"
             ],
             "img": "lidasan.jpg",
-            "party": "Makabayang Koalisyon ng Mamamayan",
+            "party": "Makabayan",
             "exp": [],
             "adv": [],
             "pf": [],
@@ -997,7 +1008,7 @@
                 "T1"
             ],
             "img": "maza.jpg",
-            "party": "Makabayang Koalisyon ng Mamamayan",
+            "party": "Makabayan",
             "exp": [],
             "adv": [],
             "pf": [],
@@ -1177,7 +1188,7 @@
                 "T1"
             ],
             "img": "ramos.jpg",
-            "party": "Makabayang Koalisyon ng Mamamayan",
+            "party": "Makabayan",
             "exp": [],
             "adv": [],
             "pf": [],
