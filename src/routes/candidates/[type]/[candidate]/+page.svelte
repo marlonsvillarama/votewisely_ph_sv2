@@ -71,8 +71,31 @@
     </div>
 
     <div class="details">
+        <!-- Work Experience -->
         <div class="detail">
             <h3>Work Experience</h3>
+            {#if candidate.exp?.length > 0}
+                <ul>
+                    {#each candidate.exp as exp}
+                        <li>{exp.value}
+                            {#if exp.sub?.length > 0}
+                                <ul>
+                                    {#each exp.sub as sub}
+                                    <li>{sub}</li>
+                                    {/each}
+                                </ul>
+                            {/if}
+                        </li>
+                    {/each}
+                </ul>
+            {:else}
+                <p>No work experience identified at this time.</p>
+            {/if}
+        </div>
+
+        <!-- Legislations -->
+        <div class="detail">
+            <h3>Legislations</h3>
             {#if candidate.exp?.length > 0}
                 <ul>
                     {#each candidate.exp as exp}

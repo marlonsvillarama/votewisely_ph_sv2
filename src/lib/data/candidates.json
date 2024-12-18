@@ -16,6 +16,7 @@
                 "FM",
                 "FR",
                 "FCM",
+                "O60",
                 "T1"
             ],
             "web": "https://benjaminabalosjr.com/",
@@ -120,6 +121,8 @@
                 "T1",
                 "IN"
             ],
+            "web": "https://www.facebook.com/wilson.caritero.amad",
+            "email": "",
             "party": "Independent",
             "exp": [],
             "adv": [],
@@ -173,6 +176,8 @@
                 "FS",
                 "T2"
             ],
+            "web": "https://bamaquino.com",
+            "email": "",
             "party": "Katipunan ng Nagkakaisang Pilipino",
             "exp": [{
                 "value": "Senator (2013-2019)",
@@ -323,6 +328,8 @@
                 "PF",
                 "T1"
             ],
+            "web": "https://www.facebook.com/abby.binay",
+            "email": "",
             "party": "Nationalist People's Coalition",
             "exp": [],
             "adv": [],
@@ -358,7 +365,7 @@
             "short_fn": "Bonifacio",
             "ln": "Bosita",
             "dob": "19661130",
-            "job": "Retired Army Colonel",
+            "job": "Retired Police Colonel",
             "term": 1,
             "tags": [
                 "MLT",
@@ -545,6 +552,7 @@
             "term": 1,
             "tags": [
                 "AC",
+                "O60",
                 "T1"
             ],
             "party": "Partido Lakas ng Masa",
@@ -565,6 +573,7 @@
             "job": "Senator",
             "term": 2,
             "tags": [
+                "O60",
                 "T1"
             ],
             "party": "PDP-Laban",
@@ -711,6 +720,7 @@
             "term": 1,
             "tags": [
                 "FCM",
+                "O70",
                 "T1"
             ],
             "party": "Partido Demokratiko Sosyalista ng Pilipinas",
@@ -752,6 +762,7 @@
             "term": 3,
             "tags": [
                 "FCM",
+                "O70",
                 "T3"
             ],
             "party": "Reform PH-People's Party",
