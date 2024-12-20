@@ -1,6 +1,9 @@
 <script>
     import { page } from '$app/stores';
     import Tag from '../../../../components/tag.svelte';
+    import ProfileSection from '../../../../components/profileSection.svelte';
+    import WorkExperience from '../../../../components/candidate/workExperience.svelte';
+    import Legislations from '../../../../components/candidate/legislations.svelte';
 
     export let data = {};
 
@@ -72,7 +75,8 @@
 
     <div class="details">
         <!-- Work Experience -->
-        <div class="detail">
+        <ProfileSection title="work experience" data={candidate.exp} />
+        <!-- <div class="detail">
             <h3>Work Experience</h3>
             {#if candidate.exp?.length > 0}
                 <ul>
@@ -91,10 +95,11 @@
             {:else}
                 <p>No work experience identified at this time.</p>
             {/if}
-        </div>
+        </div> -->
 
         <!-- Legislations -->
-        <div class="detail">
+        <ProfileSection title="legislations" data={candidate.exp} />
+        <!-- <div class="detail">
             <h3>Legislations</h3>
             {#if candidate.exp?.length > 0}
                 <ul>
@@ -113,8 +118,10 @@
             {:else}
                 <p>No work experience identified at this time.</p>
             {/if}
-        </div>
-        <div class="detail">
+        </div> -->
+
+        <ProfileSection title="known advocacies" data={candidate.adv} />
+        <!-- <div class="detail">
             <h3>Known Advocacies</h3>
             {#if candidate.adv?.length > 0}
                 <p>{candidate.ln} is a known advocate for the following issues:</p>
@@ -126,8 +133,10 @@
             {:else}
                 <p>No advocacies identified at this time.</p>
             {/if}
-        </div>
-        <div class="detail">
+        </div> -->
+
+        <ProfileSection title="relatives in politics" data={candidate.pf} />
+        <!-- <div class="detail">
             <h3>Relatives in Politics</h3>
             {#if candidate.pf?.length > 0}
                 <p>{candidate.ln} is a member of a political family that includes the following persons:</p>
@@ -139,11 +148,12 @@
             {:else}
                 <p>No known relatives in politics.</p>
             {/if}
-        </div>
-        <div class="detail">
+        </div> -->
+
+        <!-- <div class="detail">
             <h3>Net Worth</h3>
             <p>No Statement of Assets, Liabilities, and Net Worth (SALN) released at this time.</p>
-        </div>
+        </div> -->
         <div class="detail">
             <h3>Education</h3>
             {#if candidate.ed?.length > 0}
@@ -185,28 +195,28 @@
         flex-direction: column;
         gap: 2rem;
     }
-    .header {
+    /*.header {
         display: flex;
         gap: 2rem;
         /* grid-template-columns: 2fr 3fr; */
-        /* background-color: aliceblue; */
+        /* background-color: aliceblue; *
     }
     /* .header > * {
         border: 1px solid red;
-    } */
+    } *
     img {
         min-width: 16rem;
         max-width: 20rem;
         height: auto;
         border-radius: 4px;
-        /* box-shadow: var(--box-shadow); */
+        /* box-shadow: var(--box-shadow); *
     }
     aside {
         /* width: 100%; */
         /* height: 100%;
         min-height: 100%; */
         /* border: 1px solid black; */
-        /* flex: auto; */
+        /* flex: auto; *
         font-size: var(--fs-sm);
         display: flex;
         flex-direction: column;
@@ -220,22 +230,22 @@
     #party {
         /* text-align: center; */
 		/* padding: 0.25rem 1rem; */
-        /* line-height: 1.6rem; */
+        /* line-height: 1.6rem; *
         font-size: var(--fs-xl);
         font-weight: 700;
         letter-spacing: 0.25px;
         color: var(--color-slate-900);
-		/* background-color: rgba(0, 0, 0, 0.1); */
+		/* background-color: rgba(0, 0, 0, 0.1); *
     }
     /* .actions {
         text-align: center;
-    } */
+    } *
     button {
         cursor: pointer;
         background-color: white;
         color: var(--color-slate-900);
         box-shadow: var(--button-shadow);
-        /* border: 1px solid var(--color-red-flag); */
+        /* border: 1px solid var(--color-red-flag); *
         font-weight: 500;
         border: 0;
         border-radius: 4px;
@@ -244,9 +254,9 @@
         transition: all 50ms ease-in-out;
     }
     button:hover {
-        /* background-color: var(--color-blue-flag-lite); */
+        /* background-color: var(--color-blue-flag-lite); *
         box-shadow: var(--button-shadow-hover);
-        /* color: white; */
+        /* color: white; *
         transform: scale(1.05);
     }
     .tags {
@@ -254,16 +264,16 @@
         gap: 0.5rem;
         flex-wrap: wrap;
         justify-content: flex-start;
-        /* border: 1px solid red; */
+        /* border: 1px solid red; *
         margin: 0.5rem 0 0.25rem -0.25rem;
-    }
+    } */
     .details {
         /* border: 1px solid green; */
         display: flex;
         flex-direction: column;
         gap: 2.5rem;
     }
-    .detail {
+    /* .detail {
         font-size: var(--fs-sm);
         line-height: 1.5rem;
     }
@@ -273,8 +283,8 @@
         border-bottom: 1px solid #CCC;
     }
     .detail ul {
-        /* border: 1px solid red; */
-        /* margin-left: 2rem; */
+        /* border: 1px solid red; *
+        /* margin-left: 2rem; *
         margin-block-start: 0.5rem;
         margin-block-end: 1rem;
         padding-inline-start: 2rem;
@@ -289,5 +299,5 @@
         color: var(--color-blue-flag);
         border-bottom: 1px solid var(--color-blue-flag);
         font-weight: 700;
-    }
+    } */
 </style>
