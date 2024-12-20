@@ -15,9 +15,7 @@
                 "PF",
                 "FM",
                 "FR",
-                "FCM",
-                "O60",
-                "T1"
+                "FCM"
             ],
             "web": "https://benjaminabalosjr.com/",
             "email": "",
@@ -35,11 +33,7 @@
                     "Best Mayor (2015)"
                 ]
             }, {
-                "value": "Congressman - Mandaluyong Lone District (2004-2007)",
-                "sub": [
-                    "Principal author:<ul><li><a href=\"https://www.officialgazette.gov.ph/2007/03/18/republic-act-no-9397/\" target=\"_blank\">Republic Act 9397 - \"No-Bidding\" sale of government-owned properties to its occupants for socialized housing</a></li></ul>",
-                    "Co-authored 54 House bills"
-                ]
+                "value": "Congressman - Mandaluyong Lone District (2004-2007)"
             }, {
                 "value": "Mayor - Mandaluyong City, Metro Manila (1998-2004)",
                 "sub": [
@@ -50,6 +44,21 @@
             }, {
                 "value": "City Councilor - Mandaluyong City,Metro Manila (1995-1998)"
             }],
+            "leg": {
+                "pr": {
+                    "total": 22,
+                    "list": [
+                        {
+                            "link": "https://www.officialgazette.gov.ph/2007/03/18/republic-act-no-9397/",
+                            "text": "Republic Act 9397 - \"No-Bidding\" sale of government-owned properties to its occupants for socialized housing"
+                        }
+                    ]
+                },
+                "co": {
+                    "total": 0,
+                    "list": []
+                }
+            },
             "adv": [],
             "pf": [{
                 "name": "Benjamin Abalos Sr.",
@@ -115,7 +124,7 @@
             "short_fn": "Wilson",
             "ln": "Amad",
             "dob": "",
-            "job": "Lawyer",
+            "job": "Consultant for the poor",
             "term": 1,
             "tags": [
                 "T1",
@@ -124,8 +133,23 @@
             "web": "https://www.facebook.com/wilson.caritero.amad",
             "email": "",
             "party": "Independent",
-            "exp": [],
-            "adv": [],
+            "exp": [{
+                "value": "Spokesman - Plaridel Higaonon Tribal Council"
+            }, {
+                "value": "General Manager - Boom Marine Corporation"
+            }, {
+                "value": "President - Confederation of Exporters (Region 10-A)"
+            }, {
+                "value": "Visayas-Mindanao Regional Manager - Phiko Ubins Ltd. Corp."
+            }, {
+                "value": "Board of Directors - Phividec Industrial Authority Misamis Oriental Enterprises"
+            }],
+            "adv": [
+                "Indigenous people of Mindanao and people living in forest lands",
+                "Against excessive government bureaucracy",
+                "Environment activism",
+                "Improvement of animal rights"
+            ],
             "pf": [],
             "nw": 0,
             "ed": [],
@@ -182,13 +206,7 @@
             "exp": [{
                 "value": "Senator (2013-2019)",
                 "sub": [
-                    "Deputy Senate Minority Leader (2017-2019)",
-                    {
-                        "v": "Passed more than 40 laws, including the following:",
-                        "l": [
-                            "<a href=\"https://www.officialgazette.gov.ph/2017/08/03/republic-act-no-10931/\" target=\"_blank\">RA 10931: Universal Access to Quality Tertiary Education Act</a>"
-                        ]
-                    }
+                    "Deputy Senate Minority Leader (2017-2019)"
                 ]
             }, {
                 "value": "President - MicroVentures Foundation (2012-2013)"
@@ -203,11 +221,46 @@
             }, {
                 "value": "Commissioner - National Youth Commission (2001-2003)"
             }],
-            "adv": [
-                "Social entrepreneurship",
-                "Free and affordable college education",
-                "Renewable energy"
-            ],
+            "leg": {
+                "pr": {
+                    "total": 1,
+                    "list": [{
+                        "link": "https://lawphil.net/statutes/repacts/ra2014/ra_10645_2014.html",
+                        "text": "Republic Act 10645 - Mandatory PhilHealth coverage for senior citizens",
+                        "desc": "This law gave all senior citizens automatic coverage by PhilHealth."
+                    }, {
+                        "link": "https://jur.ph/law/summary/expansion-of-benefits-and-privileges-of-persons-with-disability-pwd",
+                        "text": "Republic Act 10754 - Expanding the benefits of PWDs",
+                        "desc": "Persons With Disabilities (PWDs) can now enjoy a minimum of 20% discount and exemption from VAT for goods and services."
+                    }]
+                },
+                "co": {
+                    "total": 1,
+                    "list": [{
+                        "link": "https://lawphil.net/statutes/repacts/ra2017/ra_10931_2017.html",
+                        "text": "Republic Act 10931 - Free college or universal access to quality tertiary education",
+                        "desc": "This law granted tuition-free education for state universities, colleges, and technical schools."
+                    }, {
+                        "link": "https://lawphil.net/statutes/repacts/ra2014/ra_10645_2014.html",
+                        "text": "Republic Act 10645 - Mandatory PhilHealth coverage for senior citizens",
+                        "desc": "This law gave all senior citizens automatic coverage by PhilHealth."
+                    }, {
+                        "link": "https://jur.ph/law/summary/expansion-of-benefits-and-privileges-of-persons-with-disability-pwd",
+                        "text": "Republic Act 10754 - Expanding the benefits of PWDs",
+                        "desc": "Persons With Disabilities (PWDs) can now enjoy a minimum of 20% discount and exemption from VAT for goods and services."
+                    }]
+                }
+            },
+            "adv": [{
+                "title": "Social entrepreneurship",
+                "desc": "..."
+            }, {
+                "title": "Free and affordable college education",
+                "desc": "..."
+            }, {
+                "title": "Renewable energy",
+                "desc": "..."
+            }],
             "pf": [{
                 "name": "Benigno \"Ninoy\" Aquino Jr.",
                 "rel": "Uncle",

@@ -51,12 +51,12 @@
 
 <style>
     .tag {
-		padding: 0rem 1rem;
+		padding: 0.25rem 1rem;
         line-height: 1.6rem;
 		border-radius: 4px;
 		background-color: rgba(0, 0, 0, 0.1);
 		color: var(--color-default);
-		font-size: var(--fs-xs);
+		font-size: var(--fs-sm);
         letter-spacing: 0.25px;
         position: relative;
 	}

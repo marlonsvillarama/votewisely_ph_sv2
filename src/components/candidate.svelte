@@ -81,11 +81,11 @@
     </div>
     <div class="contents">
         <span class="party">{candidate.party}</span>
-        <div class="tags">
+        <!-- <div class="tags">
             {#each candidateTags as tag}
                 <Tag tag={getTag(tag)} />
             {/each}
-        </div>
+        </div> -->
     </div>
 </buttton>
 
@@ -160,10 +160,10 @@
     .party {
         display: block;
         text-align: center;
-		padding: 0rem 1rem;
+		padding: 0.25rem 0;
         line-height: 1.6rem;
-        font-weight: 700;
-        /* font-size: var(--fs-sm); */
+        font-weight: 600;
+        font-size: var(--fs-sm);
         letter-spacing: 0.25px;
         color: var(--color-slate-900);
 		/* background-color: var(--color-white); */

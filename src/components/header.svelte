@@ -35,7 +35,7 @@
     }
     nav {
         display: none;
-        font-size: var(--fs-xs);
+        font-size: var(--fs-sm);
     }
     @media (min-width: 60rem) {
         nav {

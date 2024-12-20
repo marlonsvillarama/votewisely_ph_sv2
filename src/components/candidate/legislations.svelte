@@ -1,55 +1,35 @@
 <script>
     export let data = [];
+
+    let leg = data?.leg;
+    let principalCount = leg?.pr?.total || 0;
+    let coCount = leg?.co?.total || 0;
+    // console.log(`principalCount = ${principalCount}`, data?.pr?.list);
 </script>
 
-<div class="detail">
+<div class="profile-section">
     <h3>Legislations</h3>
-    {#if data?.length > 0}
-        <ul>
-            {#each data as d}
-                <li>{d.value}
-                    {#if d.sub?.length > 0}
-                        <ul>
-                            {#each d.sub as sub}
-                            <li>{sub}</li>
-                            {/each}
-                        </ul>
-                    {/if}
-                </li>
-            {/each}
-        </ul>
+    {#if principalCount > 0 || coCount > 0}
+        <!-- <ul> -->
+            {#if principalCount > 0}
+                <p>As the principal author:</p>
+                <ul>
+                    {#each leg.pr.list as d}
+                    <li><a href={d.link} target="_blank">{d.text}</a><br><p>{d.desc}</p></li>
+                    {/each}
+                </ul>
+            {/if}
+            {#if coCount > 0}
+                <p>As a co-author:</p>
+                <ul>
+                    {#each leg.co.list as d}
+                    <li><a href={d.link} target="_blank">{d.text}</a><br><p>{d.desc}</p></li>
+                    {/each}
+                </ul>
+            {/if}
+        <!-- </ul> -->
     {:else}
-        <p>No authored legislations identified at this time.</p>
+        <p>This candidate has not yet previously filed any legislations.</p>
     {/if}
+    <a class="back-to-top" href="#top">Back to Top &uarr;</a>
 </div>
-
-<style>
-    .detail {
-        font-size: var(--fs-sm);
-        line-height: 1.5rem;
-    }
-    .detail h3 {
-        padding-bottom: 0.5rem;
-        margin-bottom: 1rem;
-        border-bottom: 1px solid #CCC;
-        text-transform: capitalize;
-    }
-    .detail ul {
-        /* border: 1px solid red; */
-        /* margin-left: 2rem; */
-        margin-block-start: 0.5rem;
-        margin-block-end: 1rem;
-        padding-inline-start: 2rem;
-    }
-    a {
-        color: var(--color-blue-flag-lite);
-        border-bottom: 1px solid var(--color-blue-flag-lite);
-        font-weight: 500;
-        padding-bottom: 2px;
-    }
-    a:hover {
-        color: var(--color-blue-flag);
-        border-bottom: 1px solid var(--color-blue-flag);
-        font-weight: 700;
-    }
-</style>

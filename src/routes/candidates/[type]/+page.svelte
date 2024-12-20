@@ -1,5 +1,6 @@
 <script>
     import { page } from "$app/stores";
+    import Crumbs from "../../../components/crumbs.svelte";
     import Candidate from '../../../components/candidate.svelte';
     import Filters from "../../../components/filters.svelte";
 
@@ -62,12 +63,17 @@
 	<meta name="description" content={slugTitle} />
 </svelte:head>
 
-<section class="hero">
+<!-- <section class="hero">
 	<div class="overlay"></div>
 	<div class="content wrapper">
 		<h1>{slugProper}</h1>
 	</div>
-</section>
+</section> -->
+
+<div class="header wrapper">
+    <Crumbs data={$page.params} />
+    <h2>2025 Candidates for {slug}</h2>
+</div>
 
 <div class="filters wrapper">
     <Filters list={data.tags} filters={filters} on:select={filterList} on:clear={clearFilters} />
@@ -99,6 +105,10 @@
         .hero {
             padding: 10.5rem 0 8rem;
         }
+    }
+    .header {
+        margin-top: 4rem;
+        border-top: 1px solid red;
     }
 	.content {
 		display: flex;

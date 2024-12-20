@@ -1,24 +1,29 @@
 <script>
     import { page } from '$app/stores';
-    import Tag from '../../../../components/tag.svelte';
-    import ProfileSection from '../../../../components/profileSection.svelte';
+    // import Tag from '../../../../components/tag.svelte';
+    // import ProfileSection from '../../../../components/profileSection.svelte';
+    import ProfileHeader from '../../../../components/candidate/profileHeader.svelte';
     import WorkExperience from '../../../../components/candidate/workExperience.svelte';
     import Legislations from '../../../../components/candidate/legislations.svelte';
+    import Advocacies from '../../../../components/candidate/advocacies.svelte';
+    import PoliticalFamily from '../../../../components/candidate/politicalFamily.svelte';
+    import Education from '../../../../components/candidate/education.svelte';
+    import News from '../../../../components/candidate/news.svelte';
 
     export let data = {};
 
-    console.log('[candidate] data', data);
+    // console.log('[candidate] data', data);
     let type = $page.params.type;
     let slug = $page.params.candidate;
     let candidate = data.candidates[type]?.find(d => d.slug === slug);
     let candidateName = candidate ? `${candidate.ln}, ${candidate.fn}` : 'Not Found';
-    let imgUrl = `/images/profiles/${slug}.jpg`;
-    let age = 0;
+    // let imgUrl = `/images/profiles/${slug}.jpg`;
+    // let age = 0;
 
-    const getTag = (id) => {
+    /* const getTag = (id) => {
         let tag = data.tags.find(t => t.id === id);
         return tag;
-    };
+    }; */
 
     const addInfo = () => {
         console.log(`addInfo ${slug}`);
@@ -42,148 +47,34 @@
 	<meta name="description" content={candidateName} />
 </svelte:head>
 
+<a id="top"></a>
 <div class="banner">
     <h1 class="wrapper">{candidateName}</h1>
 </div>
 
 <section class="candidate wrapper">
-    <div class="header">
-        <img src={imgUrl} alt={candidateName}>
-        <aside>
-            <div class="head">
-                <h2 id="party">{candidate.party}</h2>
-                <div class="tags">
-                    {#each candidate.tags as tag}
-                        <Tag tag={getTag(tag)} />
-                    {/each}
-                </div>
-                <span class="age">{age} years old</span>
-                <span class="job">{candidate.job}</span>
-            </div>
-            <div class="contact">
-                <p>Website: {#if candidate.web}<a href={candidate.web} target="_blank">{candidate.web}</a>{:else}None{/if}</p>
-                <p>Email: {#if candidate.email}<a href="mailto:{candidate.email}" target="_blank">{candidate.email}</a>{:else}None{/if}</p>
-            </div>
-            <div class="actions">
-                <button id="add-info" on:click={addInfo}>Add info</button>
-                <button id="fact-check" on:click={factCheck}>Fact check</button>
-                <button id="discuss" on:click={discuss}>Discuss</button>
-                <button id="share" on:click={share}>Share</button>
-            </div>
-        </aside>
-    </div>
+
+    <ProfileHeader data={candidate} tags={data.tags} />
 
     <div class="details">
-        <!-- Work Experience -->
-        <ProfileSection title="work experience" data={candidate.exp} />
-        <!-- <div class="detail">
-            <h3>Work Experience</h3>
-            {#if candidate.exp?.length > 0}
-                <ul>
-                    {#each candidate.exp as exp}
-                        <li>{exp.value}
-                            {#if exp.sub?.length > 0}
-                                <ul>
-                                    {#each exp.sub as sub}
-                                    <li>{sub}</li>
-                                    {/each}
-                                </ul>
-                            {/if}
-                        </li>
-                    {/each}
-                </ul>
-            {:else}
-                <p>No work experience identified at this time.</p>
-            {/if}
-        </div> -->
 
-        <!-- Legislations -->
-        <ProfileSection title="legislations" data={candidate.exp} />
-        <!-- <div class="detail">
-            <h3>Legislations</h3>
-            {#if candidate.exp?.length > 0}
-                <ul>
-                    {#each candidate.exp as exp}
-                        <li>{exp.value}
-                            {#if exp.sub?.length > 0}
-                                <ul>
-                                    {#each exp.sub as sub}
-                                    <li>{sub}</li>
-                                    {/each}
-                                </ul>
-                            {/if}
-                        </li>
-                    {/each}
-                </ul>
-            {:else}
-                <p>No work experience identified at this time.</p>
-            {/if}
-        </div> -->
+        <WorkExperience data={candidate.exp} />
 
-        <ProfileSection title="known advocacies" data={candidate.adv} />
-        <!-- <div class="detail">
-            <h3>Known Advocacies</h3>
-            {#if candidate.adv?.length > 0}
-                <p>{candidate.ln} is a known advocate for the following issues:</p>
-                <ul>
-                    {#each candidate.adv as adv}
-                        <li>{adv}</li>
-                    {/each}
-                </ul>
-            {:else}
-                <p>No advocacies identified at this time.</p>
-            {/if}
-        </div> -->
+        <Legislations data={candidate} />
 
-        <ProfileSection title="relatives in politics" data={candidate.pf} />
-        <!-- <div class="detail">
-            <h3>Relatives in Politics</h3>
-            {#if candidate.pf?.length > 0}
-                <p>{candidate.ln} is a member of a political family that includes the following persons:</p>
-                <ul>
-                    {#each candidate.pf as pf}
-                        <li>{pf.name}{pf.rel ? ', ' + pf.rel : ''} - {pf.pos}</li>
-                    {/each}
-                </ul>
-            {:else}
-                <p>No known relatives in politics.</p>
-            {/if}
-        </div> -->
+        <Advocacies data={candidate} />
 
-        <!-- <div class="detail">
-            <h3>Net Worth</h3>
-            <p>No Statement of Assets, Liabilities, and Net Worth (SALN) released at this time.</p>
-        </div> -->
-        <div class="detail">
-            <h3>Education</h3>
-            {#if candidate.ed?.length > 0}
-                <ul>
-                    {#each candidate.ed as ed}
-                    <li>{ed}</li>
-                    {/each}
-                </ul>
-            {:else}
-                <p>No known educational background at this time.</p>
-            {/if}
-        </div>
-        <div class="detail">
-            <h3>Related News</h3>
-            {#if candidate.news?.length > 0}
-                <ul>
-                    {#each candidate.news as news}
-                        <li><a href={news.link} target="_blank">{news.text}</a></li>
-                    {/each}
-                </ul>
-            {:else}
-                <p>No known related news at this time.</p>
-            {/if}
-        </div>
+        <PoliticalFamily data={candidate} />
+
+        <Education data={candidate.ed} />
+
+        <News data={candidate.news} />
     </div>
 </section>
 
 <style>
     .banner {
-        padding: 4.75rem 0 1.5rem;
+        padding: 2.75rem 0 1.5rem;
         /* background: linear-gradient(var(--color-blue-flag) 0, var(--color-blue-flag) 60%, white ); */
         background-color: var(--color-blue-flag);
         opacity: 0.7;
@@ -271,7 +162,7 @@
         /* border: 1px solid green; */
         display: flex;
         flex-direction: column;
-        gap: 2.5rem;
+        gap: 3.5rem;
     }
     /* .detail {
         font-size: var(--fs-sm);
