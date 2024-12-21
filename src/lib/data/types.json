@@ -4,6 +4,11 @@
         "desc": ""
     },
     "vice-president": {
-        
+        "what": "The second highest elected office in the Philippines.",
+        "desc": ""
+    },
+    "senate": {
+        "what": "",
+        "desc": ""
     }
 }

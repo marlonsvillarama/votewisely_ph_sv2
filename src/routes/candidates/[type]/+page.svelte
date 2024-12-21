@@ -83,11 +83,9 @@
 </div>
 
 <div class="content wrapper">
-
     {#each candidates as candidate}
         <Candidate candidate={candidate} tags={data.tags} on:click={goToProfile} />
     {/each}
-
 </div>
 
 <style>
@@ -119,7 +117,11 @@
     /* .title h1 {
         color: var(--color-slate-900);
     } */
+    .filters {
+        margin-top: 1rem;
+    }
 	.content {
+        margin-top: 2rem;
 		display: flex;
         /* flex: 2 1 auto; */
 		/* flex-direction: column; */
