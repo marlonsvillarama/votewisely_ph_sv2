@@ -31,7 +31,7 @@
         /* border: 1px solid black; */
         align-items: center;
         text-transform: uppercase;
-        font-size: var(--fs-sm);
+        /* font-size: var(--fs-md); */
     }
     li:last-child {
         opacity: 0.9;
@@ -51,6 +51,7 @@
     }
     a {
         font-weight: 700;
+        letter-spacing: 0.25px;
     }
     a:hover {
         color: var(--color-red-flag);

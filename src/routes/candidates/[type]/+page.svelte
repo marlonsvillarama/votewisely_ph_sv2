@@ -2,8 +2,9 @@
     import { page } from "$app/stores";
     import Crumbs from "../../../components/crumbs.svelte";
     import JumpTo from "../../../components/jumpTo.svelte";
+    import Filters from "../../../components/filters.svelte";
+    import RoleInfo from "../../../components/roleInfo.svelte";
     import Candidate from '../../../components/candidate.svelte';
-    import Filters from "../../../components/filters.svelte";       
 
     export let data;
 
@@ -59,6 +60,12 @@
         console.log('gotoProfile slug', e.detail.slug);
         window.location = `${$page.url.pathname}/${e.detail.slug}`;
     };
+
+    const jump = (e) => {
+        console.log('jump', e);
+        if (!e.detail.link) { return; }
+        window.location = `${e.detail.link}`;
+    };
 </script>
 
 <svelte:head>
@@ -75,10 +82,14 @@
 
 <div class="header wrapper">
     <Crumbs data={crumbs} />
-    <JumpTo data={jumps} base="/candidates" /> 
+    <JumpTo data={jumps} base="candidates" on:click={jump} />
     <div class="title">
         <h1>2025 {slugTitle}</h1>
     </div>
+</div>
+
+<div class="role wrapper">
+    <RoleInfo />
 </div>
 
 <div class="filters wrapper">
@@ -119,7 +130,7 @@
     } */
     .title h1 {
         /* color: var(--color-slate-900); */
-        border-top: 1px solid var(--color-red-flag);
+        border-top: 1px solid var(--color-blue-flag);
         margin-top: 0.5rem;
         padding-top: 0.75rem;
     }

@@ -66,7 +66,7 @@
         justify-content: space-between;
         align-items: center;
         padding-bottom: 0.5rem;
-        border-bottom: 1px solid var(--color-blue-flag);
+        border-bottom: 1px solid var(--color-red-flag);
         margin-bottom: 0.75rem;
     }
     .header h2 {
