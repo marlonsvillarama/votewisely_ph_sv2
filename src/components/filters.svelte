@@ -21,7 +21,7 @@
             }
         }
 
-        updateTagClass();
+        updateClearClass();
 
         dispatch('select', { filters });
     };

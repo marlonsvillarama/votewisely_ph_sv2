@@ -1,6 +1,7 @@
 <script>
     import { page } from "$app/stores";
     import Crumbs from "../../../components/crumbs.svelte";
+    import JumpTo from "../../../components/jumpTo.svelte";
     import Candidate from '../../../components/candidate.svelte';
     import Filters from "../../../components/filters.svelte";       
 
@@ -10,6 +11,7 @@
     let slugProper = slug.charAt(0).toUpperCase() + slug.slice(1);
     let slugTitle = `Candidates for ${slugProper}`;
     let crumbs = [ 'candidates', slug ];
+    let jumps = Object.keys(data.candidates);
 
     // let tags = data.tags;
     let candidates = data.candidates[slug];
@@ -73,6 +75,7 @@
 
 <div class="header wrapper">
     <Crumbs data={crumbs} />
+    <JumpTo data={jumps} base="/candidates" /> 
     <div class="title">
         <h1>2025 {slugTitle}</h1>
     </div>
@@ -110,15 +113,21 @@
         }
     } */
     .header {
-        margin-top: 4rem;
+        margin: 4rem auto 1rem;
         /* border-top: 1px solid red; */
     }
-    .title {
+    /* .title {
         padding: 0.5rem 0;
-    }
-    /* .title h1 {
-        color: var(--color-slate-900);
     } */
+    .title h1 {
+        /* color: var(--color-slate-900); */
+        border-top: 1px solid var(--color-red-flag);
+        margin-top: 0.5rem;
+        padding-top: 0.75rem;
+    }
+    .filters {
+        margin-bottom: 1.5rem;
+    }
 	.content {
 		display: flex;
         /* flex: 2 1 auto; */
