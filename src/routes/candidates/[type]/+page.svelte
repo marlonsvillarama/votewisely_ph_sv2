@@ -2,13 +2,14 @@
     import { page } from "$app/stores";
     import Crumbs from "../../../components/crumbs.svelte";
     import Candidate from '../../../components/candidate.svelte';
-    import Filters from "../../../components/filters.svelte";
+    import Filters from "../../../components/filters.svelte";       
 
     export let data;
 
     let slug = $page.params.type;
     let slugProper = slug.charAt(0).toUpperCase() + slug.slice(1);
     let slugTitle = `Candidates for ${slugProper}`;
+    let crumbs = [ 'candidates', slug ];
 
     // let tags = data.tags;
     let candidates = data.candidates[slug];
@@ -71,8 +72,10 @@
 </section> -->
 
 <div class="header wrapper">
-    <Crumbs data={$page.params} />
-    <h2>2025 Candidates for {slug}</h2>
+    <Crumbs data={crumbs} />
+    <div class="title">
+        <h1>2025 {slugTitle}</h1>
+    </div>
 </div>
 
 <div class="filters wrapper">
@@ -88,7 +91,7 @@
 </div>
 
 <style>
-	.hero {
+	/* .hero {
 		background: url('/images/senate.jpg') 50% 50%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -105,11 +108,17 @@
         .hero {
             padding: 10.5rem 0 8rem;
         }
-    }
+    } */
     .header {
         margin-top: 4rem;
-        border-top: 1px solid red;
+        /* border-top: 1px solid red; */
     }
+    .title {
+        padding: 0.5rem 0;
+    }
+    /* .title h1 {
+        color: var(--color-slate-900);
+    } */
 	.content {
 		display: flex;
         /* flex: 2 1 auto; */

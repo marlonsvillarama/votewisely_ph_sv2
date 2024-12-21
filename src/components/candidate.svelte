@@ -72,11 +72,13 @@
         <aside>
             <div class="name">
                 <span class="ln">{candidate.ln}</span>
-                <span class="fn">{candidate.short_fn}</span>
+                <span class="age">{#if showAge}{age} years old{:else}-{/if}</span>
+                <!-- <span class="fn">{candidate.short_fn}</span> -->
+                <span class="job">{candidate.job}</span>
             </div>
-            <span class="age">{#if showAge}{age} years old{:else}-{/if}</span>
-            <span class="job">{candidate.job}</span>
-            <span class="job">{getRunningFor(candidate.term)}</span>
+            <div class="details">
+                <span class="job">{getRunningFor(candidate.term)}</span>
+            </div>
         </aside>
     </div>
     <div class="contents">
@@ -113,7 +115,7 @@
         display: grid;
         grid-template-columns: 2fr 3fr;
         gap: 1rem;
-        color: var(--color-default);
+        color: var(--color-font);
     }
 	img {
 		width: 100%;
@@ -136,7 +138,8 @@
     .name {
         display: flex;
         flex-direction: column;
-        line-height: 1.2rem;
+        /* gap: 0.125rem; */
+        line-height: 1.25rem;
         /* justify-content: flex-start; */
 		/* align-items: center; */
     }
@@ -154,6 +157,12 @@
         letter-spacing: 0.5px;
         text-transform: uppercase;
     }
+    .details {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.25rem;
+        /* gap: 0.125rem; */
+    }
     /* .contents { */
         /* padding: 0.3rem 0.75rem 0.5rem; */
     /* } */
@@ -165,7 +174,7 @@
         font-weight: 600;
         font-size: var(--fs-sm);
         letter-spacing: 0.25px;
-        color: var(--color-slate-900);
+        color: var(--color-default);
 		/* background-color: var(--color-white); */
 		background-color: rgba(0, 0, 0, 0.1);
     }
