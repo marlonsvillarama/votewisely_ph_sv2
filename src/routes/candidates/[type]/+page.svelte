@@ -3,10 +3,10 @@
     import Crumbs from "../../../components/crumbs.svelte";
     import JumpTo from "../../../components/jumpTo.svelte";
     import Filters from "../../../components/filters.svelte";
-    import RoleInfo from "../../../components/roleInfo.svelte";
+    import TypeInfo from "../../../components/typeInfo.svelte";
     import Candidate from '../../../components/candidate.svelte';
 
-    export let data;
+    export let data = {};
 
     let slug = $page.params.type;
     let slugProper = slug.charAt(0).toUpperCase() + slug.slice(1);
@@ -14,8 +14,8 @@
     let crumbs = [ 'candidates', slug ];
     let jumps = Object.keys(data.candidates);
 
-    // let tags = data.tags;
     let candidates = data.candidates[slug];
+    let types = data.types[slug];
     let filters = [];
 
     const clearFilters = () => {
@@ -24,12 +24,9 @@
     };
 
     const filterList = (e) => {
-        filters = e.detail.filters;
-        // console.log('filters', filters);
-
         let cards = document.querySelectorAll('.card.candidate');
-        // console.log('cards', cards);
 
+        filters = e.detail.filters;
         if (filters.length <= 0) {
             cards.forEach(c => {
                 c.style.display = 'inline-block';
@@ -89,7 +86,7 @@
 </div>
 
 <div class="role wrapper">
-    <RoleInfo />
+    <TypeInfo data={types} />
 </div>
 
 <div class="filters wrapper">
