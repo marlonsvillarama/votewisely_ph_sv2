@@ -60,7 +60,7 @@
     } */
     button {
         margin-right: 1rem;
-        padding: 0.5rem 1.5rem;
+        padding: 0.5rem 1rem;
         background-color: transparent;
         /* background-color: rgba(0, 0, 0, 0.1); */
         border: 1px solid transparent;
@@ -74,6 +74,7 @@
     button.selected {
         background-color: rgba(0, 0, 0, 0.1);
         border: 1px solid rgba(0, 0, 0, 0.1);
+        font-weight: 700;
     }
     button:hover {
         /* scale: 1.05; */
@@ -98,5 +99,8 @@
         /* padding: 0 1rem 0.5rem; */
         line-height: 2rem;
         /* text-indent: ; */
+    }
+    p:not(:last-child) {
+        margin-bottom: 2rem;
     }
 </style>

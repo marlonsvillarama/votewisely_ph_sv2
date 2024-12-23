@@ -47,6 +47,7 @@
         text-align: justify;
     }
     .content .flex-row {
+        border: 1px solid black;
 		display: flex;
         /* flex: 2 1 auto; */
 		flex-direction: row;
