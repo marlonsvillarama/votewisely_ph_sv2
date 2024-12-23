@@ -17,3 +17,7 @@ a {
     text-decoration: none;
     color: var(--color-font);
 }
+
+.hidden {
+    display: none;
+}
