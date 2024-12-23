@@ -85,7 +85,7 @@
     </div>
 </div>
 
-<div class="role wrapper">
+<div class="info wrapper">
     <TypeInfo data={types} />
 </div>
 
@@ -129,6 +129,7 @@
         /* color: var(--color-slate-900); */
         border-top: 1px solid var(--color-blue-flag);
         margin-top: 0.5rem;
+        margin-bottom: 1rem;
         padding-top: 0.75rem;
     }
     .filters {

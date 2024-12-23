@@ -15,7 +15,9 @@
         ]
     }, {
         "title": "Responsibilities of a senator",
-        "desc": "Every 3 years, Filipinos must elect 12 of the 24 senators that make up the Senate of the Philippines. Each elected senator will serve six years in office, with a maximum of two consecutive terms."
+        "desc": [
+            "Every 3 years, Filipinos must elect 12 of the 24 senators that make up the Senate of the Philippines. Each elected senator will serve six years in office, with a maximum of two consecutive terms."
+        ]
     }],
     "representative": {
         "what": "",
