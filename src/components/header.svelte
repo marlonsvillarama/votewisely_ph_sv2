@@ -8,9 +8,9 @@
         </div>
     </a>
     <nav>
-        <a href="/advocacy/">Advocacy</a>
+        <!-- <a href="/advocacy/">Advocacy</a> -->
+        <a href="/candidates/senate">Senatorial Candidates</a>
         <a href="/issues/">Issues</a>
-        <a href="/candidates/">Candidates</a>
         <a href="/dynasties/">Dynasties</a>
         <a href="/news/">News</a>
     </nav>

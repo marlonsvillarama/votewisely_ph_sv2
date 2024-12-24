@@ -3,7 +3,7 @@
         {
             "id": "know",
             "title": "Know the candidates better",
-            "text": "Learn more about the platforms, advocacies, and profile of each candidate."
+            "text": "Learn more about each candidate's profile and platform."
         },
         {
             "id": "issues",
@@ -13,7 +13,19 @@
         {
             "id": "dynasty",
             "title": "Help end political dynasties",
-            "text": "Choose candidates based on merit, not on family name or celebrity status."
+            "text": "Choose candidates based on ability, not on family name or celebrity status."
+        }
+    ],
+    "fraud": [
+        {
+            "id": "misinformation",
+            "title": "",
+            "text": ""
+        },
+        {
+            "id": "misinformation",
+            "title": "",
+            "text": ""
         }
     ]
 }

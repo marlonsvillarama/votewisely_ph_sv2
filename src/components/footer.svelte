@@ -1,14 +1,16 @@
 <footer>
     <div class="wrapper">
-        <span>&copy; Copyright 2024</span>
+        <span>MyVote.PH &copy; Copyright 2024</span>
     </div>
 </footer>
 
 <style>
     footer {
         margin-top: 3rem;
-        border: 1px solid green;
-        padding: 4rem 0 3rem;
+        /* border: 1px solid green; */
+        background-color: var(--color-blue-flag);
+        padding: 4rem 0 6rem;
         font-size: var(--fs-sm);
+        color: white;
     }
 </style>
