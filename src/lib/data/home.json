@@ -18,13 +18,31 @@
     ],
     "frauds": [
         {
-            "id": "misinformation",
-            "title": "",
+            "id": "fraud",
+            "title": "Comelec urged to address alleged 2022 electoral fraud",
+            "credit": "ABS-CBN News",
+            "link": "https://news.abs-cbn.com/news/2024/2/19/comelec-urged-to-address-alleged-2022-electoral-fraud-1449",
             "text": ""
         },
         {
-            "id": "misinformation",
-            "title": "",
+            "id": "massive",
+            "title": "Massive Fraud Observed in Philippine Elections",
+            "credit": "International Coalition for Human Rights in the Philippines",
+            "link": "https://ichrp.net/massive-fraud-observed-in-philippines-elections/",
+            "text": ""
+        },
+        {
+            "id": "smartmatic",
+            "title": "Smartmatic president, 2 other execs charged with bribing Philippines election officials: DOJ",
+            "credit": "abc News",
+            "link": "https://abcnews.go.com/US/smartmatic-president-2-execs-charged-bribing-philippines-election/story?id=112711615",
+            "text": ""
+        },
+        {
+            "id": "fake",
+            "title": "Philippines election: 'Politicians hire me to spread fake stories'",
+            "credit": "BBC News",
+            "link": "https://www.bbc.com/news/blogs-trending-61339293",
             "text": ""
         }
     ]

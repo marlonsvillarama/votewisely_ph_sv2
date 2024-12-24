@@ -11,6 +11,13 @@
         };
     });
 
+    let frauds = data.frauds.map(d => {
+        return {
+            ...d,
+            img: `/images/misc/${d.id}.jpg`
+        }
+    });
+
     const goToCandidates = () => {
         window.location = `/candidates/senate`;
     };
@@ -42,7 +49,7 @@
     <section id="fraud" class="row grid-row">
         <div class="content wrapper">
             <h1>Fight misinformation and fraud</h1>
-            <div class="grid-row">
+            <div>
                 {#each frauds as fraud}
                 <CardHorizontal data={fraud} />
                 {/each}
@@ -94,7 +101,14 @@
     .page-row > .content h1 {
         color: var(--color-font);
     }
+    .grid-row {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
     .grid-row > .content h1 {
+        margin-bottom: 2rem;
         font-family: var(--font-serif);
         letter-spacing: 1px;
         text-transform: uppercase;
@@ -104,6 +118,18 @@
 		display: flex;
         /* flex: 2 1 auto; */
 		flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /* flex-wrap: wrap; */
+		color: var(--color-white);
+		gap: 3rem;
+        /* justify-content: flex-start; */
+    }
+    .content .grid-row {
+        /* border: 1px solid black; */
+		display: flex;
+        /* flex: 2 1 auto; */
+		flex-direction: column;
         justify-content: center;
         align-items: center;
         /* flex-wrap: wrap; */
