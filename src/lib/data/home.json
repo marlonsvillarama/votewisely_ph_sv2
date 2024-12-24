@@ -16,7 +16,7 @@
             "text": "Choose candidates based on ability, not on family name or celebrity status."
         }
     ],
-    "fraud": [
+    "frauds": [
         {
             "id": "misinformation",
             "title": "",

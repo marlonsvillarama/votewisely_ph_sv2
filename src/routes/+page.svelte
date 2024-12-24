@@ -1,4 +1,5 @@
 <script>
+    import CardHorizontal from "../components/cardHorizontal.svelte";
     import CardVertical from "../components/cardVertical.svelte";
 
     export let data = {};
@@ -41,7 +42,11 @@
     <section id="fraud" class="row grid-row">
         <div class="content wrapper">
             <h1>Fight misinformation and fraud</h1>
-            
+            <div class="grid-row">
+                {#each frauds as fraud}
+                <CardHorizontal data={fraud} />
+                {/each}
+            </div>
         </div>
     </section>
     
