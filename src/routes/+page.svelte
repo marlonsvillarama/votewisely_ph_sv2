@@ -7,19 +7,26 @@
     let cards = data.cards.map(d => {
         return {
             ...d,
-            img: `/images/misc/${d.id}.jpg`
+            img: `/images/cards/${d.id}.jpg`
         };
     });
 
     let frauds = data.frauds.map(d => {
         return {
             ...d,
-            img: `/images/misc/${d.id}.jpg`
+            img: `/images/cards/${d.id}.jpg`
         }
     });
 
     const goToCandidates = () => {
         window.location = `/candidates/senate`;
+    };
+
+    const clickCard = (e) => {
+        let link = e.detail.link;
+        if (!link) { return; }
+
+        window.location = link;
     };
 </script>
 
@@ -46,26 +53,26 @@
         </div>
     </section>
 
-    <section id="fraud" class="row grid-row">
+    <!-- <section id="fraud" class="row grid-row">
         <div class="content wrapper">
             <h1>Fight misinformation and fraud</h1>
-            <div>
+            <div class="">
                 {#each frauds as fraud}
                 <CardHorizontal data={fraud} />
                 {/each}
             </div>
         </div>
-    </section>
+    </section> -->
     
     <section id="issues" class="row page-row">
         <div class="content wrapper">
-            <h1>Your vote matters</h1>
+            <h1>Your vote matters.</h1>
             <p>
-                Learn more about the issues facing our country today.
+                Learn more about the issues facing our country today, and how voting for the right leaders can help shape the future of our country.
             </p>
             <div class="flex-row">
                 {#each cards as card}
-                    <CardVertical data={card} />
+                    <CardVertical data={card} on:click={clickCard} />
                 {/each}
             </div>
         </div>
@@ -83,14 +90,14 @@
         margin-bottom: 5rem;
     }
     .hero {
-		background: url("/images/ph-flag.jpg") 50% 50%;
+		background: url("/images/hero/home.jpg") 50% 50%;
         background-size: cover;
 	}
     #banner-title {
         text-align: justify;
     }
-    .page-row > .content h1,
-    .grid-row > .content h1 {
+    .page-row > .content h1 {
+    /* .grid-row > .content h1 { */
         /* font-family: var(--font-serif); */
         /* text-transform: uppercase; */
         font-size: 2.5rem;

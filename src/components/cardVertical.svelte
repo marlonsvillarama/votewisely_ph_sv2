@@ -1,14 +1,26 @@
 <script>
+    import { createEventDispatcher } from "svelte";
     export let data = {};
+
+    let dispatch = createEventDispatcher();
+    const clickButton = (e) => {
+        dispatch('click', { link: data.link });
+    };
 </script>
 
-<div class="card-col">
-    <img src={data.img} alt={data.title}>
-    <h3>{data.title}</h3>
-    <p>{data.text}</p>
-</div>
+<button on:click={clickButton}>
+    <div class="card-col">
+        <img src={data.img} alt={data.title}>
+        <h3>{data.title}</h3>
+        <p>{data.text}</p>
+    </div>
+</button>
 
 <style>
+    button {
+        border: 0;
+        background-color: transparent;
+    }
     .card-col {
         display: flex;
         flex-direction: column;
@@ -19,11 +31,11 @@
         box-shadow: var(--card-shadow);
         color: var(--color-font);
         transition: all 100ms ease-in-out;
-        cursor: pointer;
+        /* cursor: pointer; */
     }
     .card-col:hover {
         scale: 1.02;
-        box-shadow: var(--box-shadow);
+        /* box-shadow: var(--box-shadow); */
     }
     .card-col h3 {
         align-self: center;

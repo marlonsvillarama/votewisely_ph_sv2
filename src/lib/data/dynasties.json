@@ -1,0 +1,30 @@
+{
+    "col_1": [
+        {
+            "id": "what",
+            "title": "What are political dynasties?",
+            "text": [
+                "Political dynasties are families with multiple members holding elected offices.",
+                "These families usually have two or more family members either elected to different positions at the same time, or alternatingly elected to the same position."
+            ]
+        },
+        {
+            "id": "why",
+            "title": "Why are there political dynasties?",
+            "text": [
+                "Multiple family members get elected into office simply because of family name association.",
+                "In most cases, the family patriarch gets elected as a public official first. When his term ends, another family member, like the wife or any child, gets elected to the same office.",
+                "In most cases, the family patriarch gets elected as a public official first. When the official's term is about to end, another family member, like the wife or any child, runs for the same office.",
+                "As a result, the same public office becomes strongly associated with the family name, regardless of whether their governance benefitted their constituents."
+            ]
+        },
+        {
+            "id": "effects",
+            "title": "Are political dynasties good or bad for the country?",
+            "text": [
+                "Political dynasties ensure that power and control over a city, province, or even the entire country, remain within the family.",
+                "The interests of the family tend to overshadow the interests of the nation."
+            ]
+        }
+    ]
+}

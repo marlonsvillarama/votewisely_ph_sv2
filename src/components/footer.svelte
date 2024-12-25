@@ -11,6 +11,7 @@
         background-color: var(--color-blue-flag);
         padding: 4rem 0 6rem;
         font-size: var(--fs-sm);
+        font-weight: 500;
         color: white;
     }
 </style>

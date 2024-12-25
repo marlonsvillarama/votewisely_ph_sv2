@@ -78,8 +78,8 @@
 </section> -->
 
 <div class="header wrapper">
-    <Crumbs data={crumbs} />
-    <JumpTo data={jumps} base="candidates" on:click={jump} />
+    <!-- <Crumbs data={crumbs} /> -->
+    <!-- <JumpTo data={jumps} base="candidates" on:click={jump} /> -->
     <div class="title">
         <h1>2025 {slugTitle}</h1>
     </div>
